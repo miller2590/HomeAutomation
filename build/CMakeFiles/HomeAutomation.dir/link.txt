@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\HomeAutomation.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\HomeAutomation.dir/objects.a @CMakeFiles\HomeAutomation.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\HomeAutomation.dir/objects.a -Wl,--no-whole-archive -o HomeAutomation.exe -Wl,--out-implib,libHomeAutomation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HomeAutomation.dir\linkLibs.rsp
