@@ -1,55 +1,55 @@
 [
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\main.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\main.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\main.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\main.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/main.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\HomeController.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\HomeController.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\HomeController.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\HomeController.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/HomeController.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Lights.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Lights.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Lights.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Lights.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Lights.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Menu.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Menu.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Menu.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Menu.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\SecuritySystem.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\SecuritySystem.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\SecuritySystem.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\SecuritySystem.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SecuritySystem.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\SmartDevice.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\SmartDevice.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\SmartDevice.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\SmartDevice.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Television.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Television.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Television.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Television.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Television.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Thermostat.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Thermostat.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Thermostat.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Thermostat.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Thermostat.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj"
 },
 {
   "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Vacuum.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Vacuum.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Vacuum.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Vacuum.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Vacuum.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj"
 }

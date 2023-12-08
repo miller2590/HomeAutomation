@@ -11,7 +11,7 @@ BuildDirectory: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/We
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: BLD
+Site: SkyNetMobile
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -28,7 +28,7 @@ NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
 ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: C:/Program Files/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,13 +58,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: C:/Program Files/Git/cmd/git.exe
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
-Compiler: C:/msys64/ucrt64/bin/g++.exe
-CompilerVersion: 13.2.0
+Compiler: C:/mingw64/bin/g++.exe
+CompilerVersion: 12.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/msys64/ucrt64/bin/gcov.exe
+CoverageCommand: C:/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

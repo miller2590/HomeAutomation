@@ -1,6 +1,7 @@
 #include "../include/HomeController.h"
 #include <iostream>
 #include <ctime>
+#include <memory>
 
 using namespace std;
 
@@ -12,6 +13,16 @@ HomeController::HomeController(){
     runPmMode();
     getDateTime();
 };
+
+HomeController::~HomeController(){};
+
+void HomeController::addDevice(unique_ptr<SmartDevice> device) {
+    devices.push_back(move(device));
+}
+
+void HomeController::showDevices() {
+    cout << devices.size() << endl;
+}
 
 void HomeController::runAmMode() {
     cout << "AM mode running..." << endl;

@@ -72,127 +72,127 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: CMakeFiles/HomeAutomation.dir/fl
 CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/main.cpp
 CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HomeAutomation.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/main.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\main.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\main.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/main.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\main.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\main.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp
 
 CMakeFiles/HomeAutomation.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp > CMakeFiles\HomeAutomation.dir\src\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp > CMakeFiles\HomeAutomation.dir\src\main.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp -o CMakeFiles\HomeAutomation.dir\src\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\main.cpp -o CMakeFiles\HomeAutomation.dir\src\main.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/HomeController.cpp
 CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp
 
 CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp > CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp > CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp -o CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\HomeController.cpp -o CMakeFiles\HomeAutomation.dir\src\HomeController.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Lights.cpp
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Lights.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Lights.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Lights.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Lights.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp
 
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Lights.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp > CMakeFiles\HomeAutomation.dir\src\Lights.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp > CMakeFiles\HomeAutomation.dir\src\Lights.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Lights.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp -o CMakeFiles\HomeAutomation.dir\src\Lights.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Lights.cpp -o CMakeFiles\HomeAutomation.dir\src\Lights.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Menu.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Menu.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Menu.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Menu.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp
 
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Menu.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp > CMakeFiles\HomeAutomation.dir\src\Menu.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp > CMakeFiles\HomeAutomation.dir\src\Menu.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Menu.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp -o CMakeFiles\HomeAutomation.dir\src\Menu.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Menu.cpp -o CMakeFiles\HomeAutomation.dir\src\Menu.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SecuritySystem.cpp
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp
 
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp > CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp > CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp -o CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SecuritySystem.cpp -o CMakeFiles\HomeAutomation.dir\src\SecuritySystem.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp
 
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp > CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp > CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp -o CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\SmartDevice.cpp -o CMakeFiles\HomeAutomation.dir\src\SmartDevice.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Television.cpp
 CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Television.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Television.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Television.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Television.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp
 
 CMakeFiles/HomeAutomation.dir/src/Television.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Television.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp > CMakeFiles\HomeAutomation.dir\src\Television.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp > CMakeFiles\HomeAutomation.dir\src\Television.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/Television.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Television.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp -o CMakeFiles\HomeAutomation.dir\src\Television.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Television.cpp -o CMakeFiles\HomeAutomation.dir\src\Television.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Thermostat.cpp
 CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp
 
 CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp > CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp > CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp -o CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp -o CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.s
 
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Vacuum.cpp
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp
 
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp > CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp > CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.i
 
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.s
 
 # Object files for target HomeAutomation
 HomeAutomation_OBJECTS = \

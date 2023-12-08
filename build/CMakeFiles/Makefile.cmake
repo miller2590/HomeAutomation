@@ -37,10 +37,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in"
   "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/CMakeLists.txt"
-  "CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.28.0-rc3/CMakeSystem.cmake"
+  "CMakeFiles/3.28.0/CMakeCCompiler.cmake"
+  "CMakeFiles/3.28.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.28.0/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.28.0/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

@@ -1,7 +1,9 @@
 #ifndef TELEVISION_H
 #define TELEVISION_H
 
-class Television{
+#include "SmartDevice.h";
+
+class Television : public SmartDevice {
     private:
         int channel;
 
