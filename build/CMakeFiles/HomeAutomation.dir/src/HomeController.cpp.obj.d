@@ -163,4 +163,15 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\mingw64\include\c++\12.2.0\istream \
  c:\mingw64\include\c++\12.2.0\bits\istream.tcc \
- c:\mingw64\include\c++\12.2.0\ctime
+ c:\mingw64\include\c++\12.2.0\iomanip \
+ c:\mingw64\include\c++\12.2.0\locale \
+ c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.h \
+ c:\mingw64\include\c++\12.2.0\ctime \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\time_members.h \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\messages_members.h \
+ c:\mingw64\include\c++\12.2.0\bits\codecvt.h \
+ c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\locale_conv.h \
+ c:\mingw64\include\c++\12.2.0\bits\quoted_string.h \
+ c:\mingw64\include\c++\12.2.0\sstream \
+ c:\mingw64\include\c++\12.2.0\bits\sstream.tcc

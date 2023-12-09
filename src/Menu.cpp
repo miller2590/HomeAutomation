@@ -42,7 +42,8 @@ void Menu::setUpDeviceMenu() {
             /* code */
             break;
         case 2:
-            homeController.addDevice(make_unique<Television>());
+            
+            homeController.addDevice(make_unique<Television>(1, "Test_TV"));
             homeController.showDevices();
             break;
         case 3:

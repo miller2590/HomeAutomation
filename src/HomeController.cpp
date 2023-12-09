@@ -1,5 +1,6 @@
 #include "../include/HomeController.h"
 #include <iostream>
+#include <iomanip>
 #include <ctime>
 #include <memory>
 
@@ -21,7 +22,16 @@ void HomeController::addDevice(unique_ptr<SmartDevice> device) {
 }
 
 void HomeController::showDevices() {
-    cout << devices.size() << endl;
+    if (devices.empty()) {
+        cout << "There are no Devices yet!" << endl;
+    } else {
+        std::cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << endl;
+        std::cout << setw(15) << "---------" << setw(30) << "-----------" << endl;
+
+        for (const auto& device : devices) {
+            cout << setw(15) << std::to_string(device->getId()) << setw(30) << device->getName() << '\n' << '\n';
+        }
+    }
 }
 
 void HomeController::runAmMode() {

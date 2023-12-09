@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-SmartDevice::SmartDevice(){};
+SmartDevice::SmartDevice(int id, string name) : id(id), name(name) {};
 
 void SmartDevice::activateDevice() {
     cout << "Device Activated..." << endl;
@@ -13,12 +13,12 @@ void SmartDevice::deavtivateDevice() {
 }
 
 //This will return int
-void SmartDevice::getId() {
-    cout << "Device ID..." << endl;
+int SmartDevice::getId() {
+    return id;
 }
 
-void SmartDevice::getName() {
-    cout << "Device Name..." << endl;
+string SmartDevice::getName() {
+    return name;
 }
 
 //This will return bool

@@ -1,7 +1,7 @@
 #ifndef HOMECONTROLLER_H
 #define HOMECONTROLLER_H
 
-#include "SmartDevice.h";
+#include "SmartDevice.h"
 
 #include<memory>
 #include <vector>

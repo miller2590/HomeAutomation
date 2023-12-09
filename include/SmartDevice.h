@@ -9,19 +9,19 @@ class SmartDevice{
     private:
         int id;
         string name;
-        bool status;
+        bool status = false;
         int amSetPoint;
         int pmSetPoint;
 
     public:
-        SmartDevice();
+        SmartDevice(int id, string name);
         virtual ~SmartDevice() = default;
         void activateDevice();
         void deavtivateDevice();
 
         //This will return int
-        void getId();
-        void getName();
+        int getId();
+        string getName();
         //This will return bool
         void getStatus();
         //This will return int

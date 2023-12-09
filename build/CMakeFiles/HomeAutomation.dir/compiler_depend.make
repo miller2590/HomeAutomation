@@ -17,6 +17,7 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
   C:/mingw64/include/c++/12.2.0/bits/char_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/mingw64/include/c++/12.2.0/bits/codecvt.h \
   C:/mingw64/include/c++/12.2.0/bits/concept_check.h \
   C:/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
@@ -32,8 +33,11 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/bits/istream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/locale_classes.h \
   C:/mingw64/include/c++/12.2.0/bits/locale_classes.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/locale_conv.h \
   C:/mingw64/include/c++/12.2.0/bits/locale_facets.h \
   C:/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+  C:/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
   C:/mingw64/include/c++/12.2.0/bits/localefwd.h \
   C:/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
   C:/mingw64/include/c++/12.2.0/bits/move.h \
@@ -44,11 +48,13 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/bits/postypes.h \
   C:/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
   C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/mingw64/include/c++/12.2.0/bits/quoted_string.h \
   C:/mingw64/include/c++/12.2.0/bits/range_access.h \
   C:/mingw64/include/c++/12.2.0/bits/refwrap.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/std_abs.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
@@ -90,16 +96,19 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/12.2.0/ext/type_traits.h \
   C:/mingw64/include/c++/12.2.0/initializer_list \
+  C:/mingw64/include/c++/12.2.0/iomanip \
   C:/mingw64/include/c++/12.2.0/ios \
   C:/mingw64/include/c++/12.2.0/iosfwd \
   C:/mingw64/include/c++/12.2.0/iostream \
   C:/mingw64/include/c++/12.2.0/istream \
+  C:/mingw64/include/c++/12.2.0/locale \
   C:/mingw64/include/c++/12.2.0/memory \
   C:/mingw64/include/c++/12.2.0/new \
   C:/mingw64/include/c++/12.2.0/ostream \
   C:/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/mingw64/include/c++/12.2.0/sstream \
   C:/mingw64/include/c++/12.2.0/stdexcept \
   C:/mingw64/include/c++/12.2.0/stdlib.h \
   C:/mingw64/include/c++/12.2.0/streambuf \
@@ -120,7 +129,9 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
@@ -1365,17 +1376,15 @@ C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAut
 
 C:/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h:
 
-C:/mingw64/include/c++/12.2.0/bits/allocator.h:
-
-C:/mingw64/include/c++/12.2.0/bits/string_view.tcc:
-
-C:/mingw64/include/c++/12.2.0/bits/stl_vector.h:
-
 C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
 C:/mingw64/include/c++/12.2.0/bits/locale_facets.tcc:
 
-C:/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h:
+C:/mingw64/include/c++/12.2.0/bits/locale_conv.h:
+
+C:/mingw64/include/c++/12.2.0/bits/string_view.tcc:
+
+C:/mingw64/include/c++/12.2.0/bits/allocator.h:
 
 C:/mingw64/include/c++/12.2.0/bits/align.h:
 
@@ -1391,17 +1400,21 @@ C:/mingw64/include/c++/12.2.0/backward/binders.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h:
 
+C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h:
+
+C:/mingw64/include/c++/12.2.0/bits/quoted_string.h:
+
 C:/mingw64/include/c++/12.2.0/bits/stl_iterator.h:
 
-C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc:
-
 C:/mingw64/include/c++/12.2.0/bits/basic_ios.h:
+
+C:/mingw64/include/c++/12.2.0/bits/codecvt.h:
+
+C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc:
 
 C:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
 C:/mingw64/include/c++/12.2.0/bit:
-
-C:/mingw64/include/c++/12.2.0/bits/streambuf.tcc:
 
 C:/mingw64/include/c++/12.2.0/bits/postypes.h:
 
@@ -1469,6 +1482,14 @@ C:/mingw64/include/c++/12.2.0/bits/localefwd.h:
 
 C:/mingw64/include/c++/12.2.0/bits/locale_facets.h:
 
+C:/mingw64/include/c++/12.2.0/bits/ostream_insert.h:
+
+C:/mingw64/include/c++/12.2.0/iosfwd:
+
+C:/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h:
+
+C:/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc:
+
 C:/mingw64/include/c++/12.2.0/bits/range_access.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Lights.cpp:
@@ -1476,6 +1497,8 @@ C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAut
 C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/mingw64/include/c++/12.2.0/bits/memoryfwd.h:
+
+C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h:
 
 C:/mingw64/include/c++/12.2.0/bits/predefined_ops.h:
 
@@ -1487,8 +1510,6 @@ C:/mingw64/include/c++/12.2.0/bits/move.h:
 
 C:/mingw64/include/c++/12.2.0/bits/ostream.tcc:
 
-C:/mingw64/include/c++/12.2.0/bits/ostream_insert.h:
-
 C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h:
 
 C:/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h:
@@ -1497,13 +1518,21 @@ C:/mingw64/include/c++/12.2.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h:
 
+C:/mingw64/include/c++/12.2.0/bits/sstream.tcc:
+
 C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_pair.h:
 
+C:/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h:
+
 C:/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_vector.h:
+
+C:/mingw64/include/c++/12.2.0/bits/streambuf.tcc:
 
 C:/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h:
 
@@ -1565,13 +1594,15 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
 C:/mingw64/include/c++/12.2.0/initializer_list:
 
-C:/mingw64/include/c++/12.2.0/iosfwd:
+C:/mingw64/include/c++/12.2.0/iomanip:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h:
 
 C:/mingw64/include/c++/12.2.0/iostream:
 
 C:/mingw64/include/c++/12.2.0/istream:
+
+C:/mingw64/include/c++/12.2.0/locale:
 
 C:/mingw64/include/c++/12.2.0/memory:
 
@@ -1586,6 +1617,8 @@ C:/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h:
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h:
+
+C:/mingw64/include/c++/12.2.0/sstream:
 
 C:/mingw64/include/c++/12.2.0/stdexcept:
 
