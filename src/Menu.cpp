@@ -41,6 +41,7 @@ void Menu::setUpDeviceMenu() {
         cout << "4. Security System" << endl;
         cout << "5. Return to Main Menu" << endl;
         cout << "**********************************************" << endl;
+        cout << "> ";
 
         cin >> userOption;
 
@@ -86,6 +87,7 @@ void Menu::runMenu() {
         cout << "4. Delete a device." << endl; 
         cout << "5. Exit Program." << endl;
         cout << "======= Home Automation =============" << endl;
+        cout << "> ";
 
         cin >> userOption;
 
