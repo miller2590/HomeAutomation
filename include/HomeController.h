@@ -20,6 +20,7 @@ class HomeController{
     public:
         HomeController();
         virtual ~HomeController();
+        string deviceNameConstruction(string deviceType);
         void addDevice(unique_ptr<SmartDevice> device);
         void showDevices();
         void loadConfig();

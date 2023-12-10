@@ -17,6 +17,22 @@ HomeController::HomeController(){
 
 HomeController::~HomeController(){};
 
+string HomeController::deviceNameConstruction(string deviceType) {
+
+    string userDeviceName;
+    cout << "______________________________________________" << endl;
+    cout << "Please Enter a name for your " << deviceType << ": ";
+    
+    getline(cin, userDeviceName);
+    for (char& character : userDeviceName) {
+        if (character == ' ') {
+            character = '_';
+        }
+    }
+
+    return userDeviceName;
+}
+
 void HomeController::addDevice(unique_ptr<SmartDevice> device) {
     devices.push_back(move(device));
 }

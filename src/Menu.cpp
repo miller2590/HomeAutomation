@@ -13,9 +13,11 @@ using namespace std;
 Menu::Menu(HomeController& homeController) : homeController(homeController){};
 
 void Menu::errorMessage() {
+    cout << endl << endl;
     cout << "*************ERROR*****************" << endl;
     cout << "Invalid choice, please try again..." << endl;
     cout << "*************ERROR*****************" << endl;
+    cout << endl << endl;
 
     clearBuffer();
 }
@@ -28,7 +30,6 @@ void Menu::clearBuffer() {
 void Menu::setUpDeviceMenu() {
 
     int userOption;
-    string userTvName;
     
     do
     {
@@ -49,17 +50,11 @@ void Menu::setUpDeviceMenu() {
             /* code */
             break;
         case 2:
-            cout << "Please Enter a name for your Televison: " << endl;
             clearBuffer();
-            getline(cin, userTvName);
-            for (char& character : userTvName) {
-                if (character == ' ') {
-                    character = '_';
-                }
-            }
-            homeController.addDevice(make_unique<Television>(1, userTvName));
-            clearBuffer();
+            // Will add id check for duplicates function/update id here
+            homeController.addDevice(make_unique<Television>(1, homeController.deviceNameConstruction("Television")));
             homeController.showDevices();
+            clearBuffer();
             
             break;
         case 3:
