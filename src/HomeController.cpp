@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <ctime>
 #include <memory>
+#include <tuple>
 
 using namespace std;
 
@@ -41,11 +42,11 @@ void HomeController::showDevices() {
     if (devices.empty()) {
         cout << "There are no Devices yet!" << endl;
     } else {
-        std::cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << endl;
-        std::cout << setw(15) << "---------" << setw(30) << "-----------" << endl;
+        std::cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << setw(45) << "Device Type" << endl;
+        std::cout << setw(15) << "---------" << setw(30) << "-----------" << setw(45) << "-----------" << endl;
 
         for (const auto& device : devices) {
-            cout << setw(15) << std::to_string(device->getId()) << setw(30) << device->getName() << '\n' << '\n';
+            cout << setw(15) << std::to_string(device->getId()) << setw(30) << device->getName() << setw(45) << device->getDeviceType() << '\n' << '\n';
         }
     }
 }

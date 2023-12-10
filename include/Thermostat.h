@@ -6,7 +6,7 @@ class Thermostat : public SmartDevice{
         int currentTemp;
     
     public:
-        Thermostat(int id, string name);
+        Thermostat(int id, string name, string deviceType);
         //This will return int
         void getCurrentTemp();
         void setCurrentTemp(); 

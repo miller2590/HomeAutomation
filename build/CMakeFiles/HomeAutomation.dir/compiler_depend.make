@@ -495,7 +495,8 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Menu.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
-  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h
 
 CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SecuritySystem.cpp \
   C:/mingw64/include/c++/12.2.0/backward/binders.h \

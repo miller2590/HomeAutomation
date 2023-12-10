@@ -144,6 +144,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\vector.tcc \
  c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\homecontroller.h \
  c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\television.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\thermostat.h \
  c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\smartdevice.h \
  c:\mingw64\include\c++\12.2.0\iostream \
  c:\mingw64\include\c++\12.2.0\ostream c:\mingw64\include\c++\12.2.0\ios \

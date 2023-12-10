@@ -1,6 +1,7 @@
 #include "../include/Menu.h"
 #include "../include/HomeController.h"
 #include "../include/Television.h"
+#include "../include/Thermostat.h"
 #include "../include/SmartDevice.h"
 #include <iostream>
 #include <limits>
@@ -28,7 +29,7 @@ void Menu::clearBuffer() {
 }
 
 void Menu::setUpDeviceMenu() {
-
+    string deviceType[4] = {"Thermostat", "Television", "Lights", "Security System"};
     int userOption;
     
     do
@@ -48,12 +49,17 @@ void Menu::setUpDeviceMenu() {
         switch (userOption)
         {
         case 1:
-            /* code */
+            
+            clearBuffer();
+            
+            homeController.addDevice(make_unique<Thermostat>(2, homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
+            homeController.showDevices();
+            clearBuffer();
             break;
         case 2:
             clearBuffer();
             // Will add id check for duplicates function/update id here
-            homeController.addDevice(make_unique<Television>(1, homeController.deviceNameConstruction("Television")));
+            homeController.addDevice(make_unique<Television>(1, homeController.deviceNameConstruction(deviceType[1]), deviceType[1]));
             homeController.showDevices();
             clearBuffer();
             

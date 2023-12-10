@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Television::Television(int id, string name) : SmartDevice(id, name) {};
+Television::Television(int id, string name, string deviceType) : SmartDevice(id, name, deviceType) {};
 
 //This will return int
 void Television::getChannel() {

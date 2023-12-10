@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Thermostat::Thermostat(int id, string name) : SmartDevice(id, name){};
+Thermostat::Thermostat(int id, string name, string deviceType) : SmartDevice(id, name, deviceType){};
 
 //This will return int
 
