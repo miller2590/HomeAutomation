@@ -17,7 +17,7 @@ int SmartDevice::getId() {
     return id;
 }
 
-string SmartDevice::getName() {
+string SmartDevice::getName() const {
     return name;
 }
 

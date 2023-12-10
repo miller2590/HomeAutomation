@@ -1,9 +1,11 @@
 #ifndef LIGHTS_H
 #define LIGHTS_H
 
-class Lights{
+#include "SmartDevice.h"
+
+class Lights : public SmartDevice{
     public:
-        Lights();
+        Lights(int id, string name, string deviceType);
         void testMessage();
 };
 

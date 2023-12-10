@@ -1,7 +1,8 @@
 #include "../include/Menu.h"
-#include "../include/HomeController.h"
 #include "../include/Television.h"
 #include "../include/Thermostat.h"
+#include "../include/Lights.h"
+#include "../include/SecuritySystem.h"
 #include "../include/SmartDevice.h"
 #include <iostream>
 #include <limits>
@@ -51,8 +52,7 @@ void Menu::setUpDeviceMenu() {
         case 1:
             
             clearBuffer();
-            
-            homeController.addDevice(make_unique<Thermostat>(2, homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
+            homeController.addDevice(make_unique<Thermostat>(0, homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
             homeController.showDevices();
             clearBuffer();
             break;
@@ -65,8 +65,21 @@ void Menu::setUpDeviceMenu() {
             
             break;
         case 3:
+
+            clearBuffer();
+            // Will add id check for duplicates function/update id here
+            homeController.addDevice(make_unique<Lights>(2, homeController.deviceNameConstruction(deviceType[2]), deviceType[2]));
+            homeController.showDevices();
+            clearBuffer();
+
             break;
         case 4:
+
+            clearBuffer();
+            // Will add id check for duplicates function/update id here
+            homeController.addDevice(make_unique<SecuritySystem>(3, homeController.deviceNameConstruction(deviceType[3]), deviceType[1]));
+            homeController.showDevices();
+            clearBuffer();
             break;
         case 5:
             cout << "Returning to Main Menu..." << endl;
@@ -103,10 +116,15 @@ void Menu::runMenu() {
             setUpDeviceMenu();
             break;
         case 2:
+            homeController.showDevices();
             break;
         case 3:
-            break;
+            
         case 4:
+            homeController.deleteDevice();
+            clearBuffer();
+            homeController.showDevices();
+
             break;
         case 5:
             cout << "Exiting Program...." << endl;

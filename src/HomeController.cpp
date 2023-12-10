@@ -4,10 +4,10 @@
 #include <ctime>
 #include <memory>
 #include <tuple>
+#include <algorithm>
 
 using namespace std;
 
-//Template Class/function possibility
 
 HomeController::HomeController(){
     //May need to rethink private vs protected here
@@ -38,15 +38,68 @@ void HomeController::addDevice(unique_ptr<SmartDevice> device) {
     devices.push_back(move(device));
 }
 
+void HomeController::deleteDevice() {
+    int userChoice;
+    cout << "*************************************" << endl;
+    cout << "Enter the ID of the Device to Delete." << endl;
+    cout << "*************************************" << endl;
+    showDevices();
+    cout << "> ";
+    cin >> userChoice;
+    const SmartDevice* deviceToDelete = getDeviceById(userChoice);
+
+    if (deviceToDelete) {
+        cout << "(" << deviceToDelete->getName() << ")" << " will be removed." << endl;
+        cout << "Would you like to continue? 1: Yes, 2: No " << endl;
+        cout << "> ";
+
+        int deleteConfirm;
+        cin >> deleteConfirm;
+
+        if (deleteConfirm == 1) {
+            devices.erase(
+                std::remove_if(devices.begin(), devices.end(),
+                    [userChoice](const auto& device) {
+                        return device->getId() == userChoice;
+                    }
+                ),
+                devices.end()
+            );
+
+            cout << "Device removed successfully." << endl;
+        } else {
+            cout << "Action Canceled." << endl;
+        }
+    } else {
+        cout << "Device with ID: " << userChoice << ", not found." << endl;
+    }
+}
+
 void HomeController::showDevices() {
     if (devices.empty()) {
+    
+        cout << "##################################" << endl;
         cout << "There are no Devices yet!" << endl;
+        cout << "Select option (1) to add a device!" << endl;
+        cout << "##################################" << endl;
+        cout << endl << endl;
+
     } else {
-        std::cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << setw(45) << "Device Type" << endl;
-        std::cout << setw(15) << "---------" << setw(30) << "-----------" << setw(45) << "-----------" << endl;
+        cout << endl << endl;
+        cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << setw(45) << "Device Type" << endl;
+        cout << setw(15) << "---------" << setw(30) << "-----------" << setw(45) << "-----------" << endl;
 
         for (const auto& device : devices) {
-            cout << setw(15) << std::to_string(device->getId()) << setw(30) << device->getName() << setw(45) << device->getDeviceType() << '\n' << '\n';
+            cout << setw(15) << to_string(device->getId()) << setw(30) << device->getName() << setw(45) << device->getDeviceType() << '\n' << '\n';
+        }
+        cout << endl << endl;
+    }
+}
+
+const SmartDevice* HomeController::getDeviceById(int Id) const {
+    for (auto& device : devices) {
+        if (device->getId() == Id) {
+            return device.get();
         }
     }
 }

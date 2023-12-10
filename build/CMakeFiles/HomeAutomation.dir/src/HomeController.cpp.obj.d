@@ -174,4 +174,10 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\locale_conv.h \
  c:\mingw64\include\c++\12.2.0\bits\quoted_string.h \
  c:\mingw64\include\c++\12.2.0\sstream \
- c:\mingw64\include\c++\12.2.0\bits\sstream.tcc
+ c:\mingw64\include\c++\12.2.0\bits\sstream.tcc \
+ c:\mingw64\include\c++\12.2.0\algorithm \
+ c:\mingw64\include\c++\12.2.0\bits\stl_algo.h \
+ c:\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_heap.h \
+ c:\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
+ c:\mingw64\include\c++\12.2.0\pstl\glue_algorithm_defs.h

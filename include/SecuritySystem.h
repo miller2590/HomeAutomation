@@ -1,14 +1,16 @@
 #ifndef SECURITYSYSTEM_H
 #define SECURITYSYSTEM_H
 
-class SecuritySystem{
+#include "SmartDevice.h"
+
+class SecuritySystem : public SmartDevice{
     private: 
         int sensitivity;
         bool motionLightsIsOn;
         bool alarmIsOn;
 
     public:
-        SecuritySystem();
+        SecuritySystem(int id, string name, string deviceType);
         //This will return an int
         void getSensitivity();
         //This will return a bool

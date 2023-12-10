@@ -20,7 +20,7 @@ class SmartDevice{
         void activateDevice();
         void deavtivateDevice();
         int getId();
-        string getName();
+        string getName() const;
         string getDeviceType();
         bool getStatus();
         void getAmSetPoint();

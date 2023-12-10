@@ -318,6 +318,7 @@ CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: C:/Users/mille/OneDrive/Docume
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h
 
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp \
@@ -492,8 +493,9 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
-  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Menu.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h
@@ -637,6 +639,7 @@ CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h
 
 CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp \
@@ -1760,11 +1763,11 @@ C:/mingw64/include/c++/12.2.0/limits:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Menu.h:
 
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h:
+
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SecuritySystem.cpp:
-
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp:
 
