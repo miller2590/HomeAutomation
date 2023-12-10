@@ -5,12 +5,13 @@
 #include <memory>
 #include <tuple>
 #include <algorithm>
+#include <stdexcept>
 
 using namespace std;
 
 
 HomeController::HomeController(){
-    //May need to rethink private vs protected here
+    
     runAmMode();
     runPmMode();
     getDateTime();
@@ -65,13 +66,17 @@ void HomeController::deleteDevice() {
                 ),
                 devices.end()
             );
-
             cout << "Device removed successfully." << endl;
+
         } else {
             cout << "Action Canceled." << endl;
+
         }
     } else {
+        cout << "************************************************" << endl;
         cout << "Device with ID: " << userChoice << ", not found." << endl;
+        cout << "************************************************" << endl;
+
     }
 }
 
@@ -97,11 +102,20 @@ void HomeController::showDevices() {
 }
 
 const SmartDevice* HomeController::getDeviceById(int Id) const {
-    for (auto& device : devices) {
-        if (device->getId() == Id) {
-            return device.get();
-        }
+    try
+    {
+        for (auto& device : devices) {
+            if (device->getId() == Id) {
+                return device.get();
+            }
+        } 
     }
+    catch(const std::exception& e)
+    {
+        cerr << "Error: " << e.what() << endl;
+    }
+    
+    return nullptr;
 }
 
 void HomeController::runAmMode() {

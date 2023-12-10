@@ -36,7 +36,7 @@ void Menu::setUpDeviceMenu() {
     do
     {
         cout << "**********************************************" << endl;
-        cout << "Which device would you like to add and set up?" << endl;
+        cout << "Which device would you like to add?" << endl;
         cout << "1. Thermostat" << endl;
         cout << "2. Television" << endl;
         cout << "3. Lights" << endl;
@@ -100,9 +100,9 @@ void Menu::runMenu() {
 
         cout << "========== Main Menu ================" << endl;
         cout << "Please make a selection: " << endl;
-        cout << "1. Add and setup a new device." << endl;
+        cout << "1. Add a new device." << endl;
         cout << "2. List current devices." << endl;
-        cout << "3. Edit a device." << endl;
+        cout << "3. Automate or manually operate a device." << endl;
         cout << "4. Delete a device." << endl; 
         cout << "5. Exit Program." << endl;
         cout << "======= Home Automation =============" << endl;
@@ -119,6 +119,7 @@ void Menu::runMenu() {
             homeController.showDevices();
             break;
         case 3:
+            cout << "Your Device is magically automated now." << endl;
             
         case 4:
             homeController.deleteDevice();
@@ -135,6 +136,5 @@ void Menu::runMenu() {
             break;
         }
         
-    } while (userOption != 5);
-    
+    } while (userOption != 5); 
 }
