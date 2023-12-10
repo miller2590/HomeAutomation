@@ -9,23 +9,29 @@
 
 using namespace std;
 
-
+//HomeController constructor
 HomeController::HomeController(){
-    
+    //I think these will have to check if the user opted for a manual override.
+    //If so, these functions will be exited. Might have to take them out of the
+    //constructor. 
     runAmMode();
     runPmMode();
     getDateTime();
 };
 
+//HomeController destructor
 HomeController::~HomeController(){};
 
+//This functon creates a device name and type based on user input
 string HomeController::deviceNameConstruction(string deviceType) {
 
     string userDeviceName;
     cout << "______________________________________________" << endl;
     cout << "Please Enter a name for your " << deviceType << ": ";
     
-    getline(cin, userDeviceName);
+    //Checks for names with spaces and concatenates
+    //them with an "_"
+    getline(cin, userDeviceName); 
     for (char& character : userDeviceName) {
         if (character == ' ') {
             character = '_';
@@ -35,10 +41,12 @@ string HomeController::deviceNameConstruction(string deviceType) {
     return userDeviceName;
 }
 
+//Adds new device to devices vector
 void HomeController::addDevice(unique_ptr<SmartDevice> device) {
     devices.push_back(move(device));
 }
 
+//Deletes device from the vector based on device ID
 void HomeController::deleteDevice() {
     int userChoice;
     cout << "*************************************" << endl;
@@ -57,6 +65,9 @@ void HomeController::deleteDevice() {
         int deleteConfirm;
         cin >> deleteConfirm;
 
+        //Uses lambda function to iterate through the vector
+        //and check if userChoice is == device ID.
+        //Has basic error handling implimentations.
         if (deleteConfirm == 1) {
             devices.erase(
                 std::remove_if(devices.begin(), devices.end(),
@@ -80,6 +91,8 @@ void HomeController::deleteDevice() {
     }
 }
 
+//Lists devices in a formated output with three columns
+//Device ID, Device Name, Device Type
 void HomeController::showDevices() {
     if (devices.empty()) {
     
@@ -101,6 +114,7 @@ void HomeController::showDevices() {
     }
 }
 
+//Gets device by ID, uses try, catch block to handle device not found
 const SmartDevice* HomeController::getDeviceById(int Id) const {
     try
     {
@@ -115,17 +129,22 @@ const SmartDevice* HomeController::getDeviceById(int Id) const {
         cerr << "Error: " << e.what() << endl;
     }
     
+    //Will likely return something more suitable than nullptr
     return nullptr;
 }
 
+//Will handle AM automation
 void HomeController::runAmMode() {
     cout << "AM mode running..." << endl;
 }
 
+//Will handle PM automation
 void HomeController::runPmMode() {
     cout << "PM mode running..." << endl;
 }
 
+//DateTime may need to be a public function,
+//will re-assess this choice
 void HomeController::getDateTime() {
     time_t currentTime = std::time(0);
 
@@ -134,6 +153,14 @@ void HomeController::getDateTime() {
     cout << "Current time and date: " << currentTimeString << endl; 
 }
 
+/*
+******************************************************
+*These two will be the meat of the system. I think
+*that they will just save the vector of devices and
+*the AM and PM settings. Once loaded, the program will
+*set itself up.
+******************************************************
+*/
 void HomeController::loadConfig() {
     cout << "Load Config File..." << endl;
 }
@@ -141,11 +168,16 @@ void HomeController::loadConfig() {
 void HomeController::saveConfig() {
     cout << "Save Config File..." << endl;
 }
+//******************************************************
 
+//This will likely utilize both AM and PM Mode
+//to have one robust function.
 void HomeController::runAutomation() {
     cout << "Running Automation Task..." << endl;
 }
 
+//This function should be simple enough.
+//I'm thinking a setStatus call and automation override.
 void HomeController::manualOverride() {
     cout << "Running Manual Override..." << endl;
 }

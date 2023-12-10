@@ -12,8 +12,10 @@
 
 using namespace std;
 
+//Menu constructor injects HomeController as dependency
 Menu::Menu(HomeController& homeController) : homeController(homeController){};
 
+//Error message for failed actions
 void Menu::errorMessage() {
     cout << endl << endl;
     cout << "*************ERROR*****************" << endl;
@@ -24,15 +26,19 @@ void Menu::errorMessage() {
     clearBuffer();
 }
 
+//Clears the input buffer in menu screens
 void Menu::clearBuffer() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
+//As of now, this only sets up the required attributes of a device.
+//This is a sub menu
 void Menu::setUpDeviceMenu() {
     string deviceType[4] = {"Thermostat", "Television", "Lights", "Security System"};
     int userOption;
     
+    //Menu options
     do
     {
         cout << "**********************************************" << endl;
@@ -50,7 +56,7 @@ void Menu::setUpDeviceMenu() {
         switch (userOption)
         {
         case 1:
-            
+            // Will add id check for duplicates function/update id here
             clearBuffer();
             homeController.addDevice(make_unique<Thermostat>(0, homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
             homeController.showDevices();
@@ -92,6 +98,7 @@ void Menu::setUpDeviceMenu() {
     
 }
 
+//Main menu options
 void Menu::runMenu() {
 
     int userOption;
@@ -119,6 +126,7 @@ void Menu::runMenu() {
             homeController.showDevices();
             break;
         case 3:
+            //This is my next portion to tackle this week
             cout << "Your Device is magically automated now." << endl;
             
         case 4:

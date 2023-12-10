@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+//SmartDevice constructor
 SmartDevice::SmartDevice(int id, string name, string deviceType) : id(id), name(name), deviceType(deviceType) {};
 
 void SmartDevice::activateDevice() {
@@ -48,12 +49,16 @@ void SmartDevice::setId(int newId) {
 }
 
 void SmartDevice::setName(string newName) {
-    //This will use a getDevices() function in oreder to sort through 
+    //This will use a getDevices() function in order to sort through 
     //Device names and make sure there are no duplicates.
     name = newName;
 }
 
 void SmartDevice::setSatus() {
+    //I don't think I like this, it could get confusing
+    //as to which state it is in currently.
+    //I will likely just take an input as to
+    //which status the user/program will need.
     if (status) {
         status = false;
     } else {
