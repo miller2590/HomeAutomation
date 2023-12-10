@@ -321,9 +321,11 @@ CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: C:/Users/mille/OneDrive/Docume
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h
 
 CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp \
+  C:/mingw64/include/c++/12.2.0/algorithm \
   C:/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
   C:/mingw64/include/c++/12.2.0/backward/binders.h \
   C:/mingw64/include/c++/12.2.0/bit \
+  C:/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
   C:/mingw64/include/c++/12.2.0/bits/align.h \
   C:/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
@@ -369,10 +371,12 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
   C:/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_algo.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_construct.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_heap.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
@@ -385,6 +389,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/string_view.tcc \
   C:/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
   C:/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
   C:/mingw64/include/c++/12.2.0/bits/utility.h \
@@ -417,6 +422,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/new \
   C:/mingw64/include/c++/12.2.0/ostream \
   C:/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
+  C:/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
   C:/mingw64/include/c++/12.2.0/stdexcept \
@@ -1580,6 +1586,8 @@ C:/mingw64/include/c++/12.2.0/ext/alloc_traits.h:
 
 C:/mingw64/include/c++/12.2.0/ext/atomicity.h:
 
+C:/mingw64/include/c++/12.2.0/bits/algorithmfwd.h:
+
 C:/mingw64/include/c++/12.2.0/ext/concurrence.h:
 
 C:/mingw64/include/c++/12.2.0/ext/numeric_traits.h:
@@ -1686,6 +1694,8 @@ C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAut
 
 C:/mingw64/x86_64-w64-mingw32/include/locale.h:
 
+C:/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/process.h:
@@ -1735,6 +1745,14 @@ C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAut
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp:
+
+C:/mingw64/include/c++/12.2.0/algorithm:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_algo.h:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_heap.h:
+
+C:/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h:
 
 C:/mingw64/include/c++/12.2.0/limits:
 

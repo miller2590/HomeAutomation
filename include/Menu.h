@@ -8,6 +8,7 @@ using namespace std;
 class Menu{
     private:
     HomeController& homeController;
+    void errorMessage();
     void clearBuffer();
     void setUpDeviceMenu();
     

@@ -22,8 +22,8 @@ string SmartDevice::getName() {
 }
 
 //This will return bool
-void SmartDevice::getStatus() {
-    cout << "Device Status..." << endl;
+bool SmartDevice::getStatus() {
+    return status;
 }
 
 //This will return int
@@ -36,16 +36,25 @@ void SmartDevice::getPmSetPoint() {
     cout << "Device PM set point..." << endl;
 }
 
-void SmartDevice::setId() {
-    cout << "Set Device ID..." << endl;
+void SmartDevice::setId(int newId) {
+    //This will use a getDevices() function in oreder to sort through 
+    //Device id's and make sure there are no duplicates.
+    //Or, I will use UUID
+    id = newId;
 }
 
-void SmartDevice::setName() {
-    cout << "Set Device Name..." << endl;
+void SmartDevice::setName(string newName) {
+    //This will use a getDevices() function in oreder to sort through 
+    //Device names and make sure there are no duplicates.
+    name = newName;
 }
 
 void SmartDevice::setSatus() {
-    cout << "Set Device Status..." << endl;
+    if (status) {
+        status = false;
+    } else {
+        status = true;
+    }
 }
 
 void SmartDevice::setAmSetPoint() {

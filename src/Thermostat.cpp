@@ -1,9 +1,10 @@
+#include "../include/SmartDevice.h"
 #include "../include/Thermostat.h"
 #include <iostream>
 
 using namespace std;
 
-Thermostat::Thermostat(){};
+Thermostat::Thermostat(int id, string name) : SmartDevice(id, name){};
 
 //This will return int
 

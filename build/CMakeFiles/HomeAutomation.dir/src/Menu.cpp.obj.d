@@ -167,4 +167,10 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\mingw64\include\c++\12.2.0\istream \
  c:\mingw64\include\c++\12.2.0\bits\istream.tcc \
- c:\mingw64\include\c++\12.2.0\limits
+ c:\mingw64\include\c++\12.2.0\limits \
+ c:\mingw64\include\c++\12.2.0\algorithm \
+ c:\mingw64\include\c++\12.2.0\bits\stl_algo.h \
+ c:\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_heap.h \
+ c:\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
+ c:\mingw64\include\c++\12.2.0\pstl\glue_algorithm_defs.h

@@ -19,17 +19,14 @@ class SmartDevice{
         void activateDevice();
         void deavtivateDevice();
 
-        //This will return int
         int getId();
         string getName();
-        //This will return bool
-        void getStatus();
-        //This will return int
+        bool getStatus();
         void getAmSetPoint();
         //This will return int
         void getPmSetPoint();
-        void setId();
-        void setName();
+        void setId(int newId);
+        void setName(string newName);
         void setSatus();
         void setAmSetPoint();
         void setPmSetPoint();

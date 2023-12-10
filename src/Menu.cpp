@@ -5,16 +5,22 @@
 #include <iostream>
 #include <limits>
 #include <memory>
+#include <algorithm>
+#include <string>
 
 using namespace std;
 
 Menu::Menu(HomeController& homeController) : homeController(homeController){};
 
-void Menu::clearBuffer() {
+void Menu::errorMessage() {
     cout << "*************ERROR*****************" << endl;
     cout << "Invalid choice, please try again..." << endl;
     cout << "*************ERROR*****************" << endl;
 
+    clearBuffer();
+}
+
+void Menu::clearBuffer() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
@@ -22,6 +28,7 @@ void Menu::clearBuffer() {
 void Menu::setUpDeviceMenu() {
 
     int userOption;
+    string userTvName;
     
     do
     {
@@ -42,9 +49,18 @@ void Menu::setUpDeviceMenu() {
             /* code */
             break;
         case 2:
-            
-            homeController.addDevice(make_unique<Television>(1, "Test_TV"));
+            cout << "Please Enter a name for your Televison: " << endl;
+            clearBuffer();
+            getline(cin, userTvName);
+            for (char& character : userTvName) {
+                if (character == ' ') {
+                    character = '_';
+                }
+            }
+            homeController.addDevice(make_unique<Television>(1, userTvName));
+            clearBuffer();
             homeController.showDevices();
+            
             break;
         case 3:
             break;
@@ -54,8 +70,7 @@ void Menu::setUpDeviceMenu() {
             cout << "Returning to Main Menu..." << endl;
             break;
         default:
-            
-            clearBuffer();
+            errorMessage();
             break;
         }
     } while (userOption != 5);
@@ -95,7 +110,7 @@ void Menu::runMenu() {
             break;
         default:
             
-            clearBuffer(); 
+            errorMessage(); 
             break;
         }
         

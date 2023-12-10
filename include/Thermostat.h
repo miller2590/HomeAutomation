@@ -1,12 +1,12 @@
 #ifndef THERMOSTAT_H
 #define THERMOSTAT_H
 
-class Thermostat{
+class Thermostat : public SmartDevice{
     private:
         int currentTemp;
     
     public:
-        Thermostat();
+        Thermostat(int id, string name);
         //This will return int
         void getCurrentTemp();
         void setCurrentTemp(); 
