@@ -48,6 +48,10 @@ void HomeController::addDevice(unique_ptr<SmartDevice> device) {
 
 //Deletes device from the vector based on device ID
 void HomeController::deleteDevice() {
+    if (devices.empty()) {
+        noDevicesAvailable();
+        return;
+    }
     int userChoice;
     cout << "*************************************" << endl;
     cout << "Enter the ID of the Device to Delete." << endl;
@@ -96,11 +100,7 @@ void HomeController::deleteDevice() {
 void HomeController::showDevices() {
     if (devices.empty()) {
     
-        cout << "##################################" << endl;
-        cout << "There are no Devices yet!" << endl;
-        cout << "Select option (1) to add a device!" << endl;
-        cout << "##################################" << endl;
-        cout << endl << endl;
+        noDevicesAvailable();
 
     } else {
         cout << endl << endl;
@@ -180,4 +180,12 @@ void HomeController::runAutomation() {
 //I'm thinking a setStatus call and automation override.
 void HomeController::manualOverride() {
     cout << "Running Manual Override..." << endl;
+}
+
+void HomeController::noDevicesAvailable() {
+    cout << "##################################" << endl;
+    cout << "There are no Devices yet!" << endl;
+    cout << "Select option (1) to add a device!" << endl;
+    cout << "##################################" << endl;
+    cout << endl << endl;
 }

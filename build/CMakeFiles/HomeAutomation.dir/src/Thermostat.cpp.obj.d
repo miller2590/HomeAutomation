@@ -95,6 +95,7 @@ CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\charconv.h \
  c:\mingw64\include\c++\12.2.0\bits\basic_string.tcc \
  c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\thermostat.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\SmartDevice.h \
  c:\mingw64\include\c++\12.2.0\iostream \
  c:\mingw64\include\c++\12.2.0\ostream c:\mingw64\include\c++\12.2.0\ios \
  c:\mingw64\include\c++\12.2.0\exception \

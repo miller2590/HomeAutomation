@@ -128,7 +128,7 @@ void Menu::runMenu() {
         case 3:
             //This is my next portion to tackle this week
             cout << "Your Device is magically automated now." << endl;
-            
+            break;
         case 4:
             homeController.deleteDevice();
             clearBuffer();

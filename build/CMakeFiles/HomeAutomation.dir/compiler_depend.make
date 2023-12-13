@@ -1071,6 +1071,7 @@ CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj: C:/Users/mille/OneDrive/Do
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h
 
 CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Vacuum.cpp \

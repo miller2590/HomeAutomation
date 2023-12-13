@@ -29,7 +29,8 @@ class HomeController{
         void loadConfig();
         void saveConfig();
         void runAutomation();
-        void manualOverride();   
+        void manualOverride(); 
+        void noDevicesAvailable();  
 };
 
 #endif
