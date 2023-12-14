@@ -25,7 +25,7 @@ class HomeController{
         void addDevice(unique_ptr<SmartDevice> device);
         void deleteDevice();
         void showDevices();
-        const SmartDevice* getDeviceById (int Id) const;
+        const SmartDevice* getDeviceById (string Id) const;
         void loadConfig();
         void saveConfig();
         void runAutomation();

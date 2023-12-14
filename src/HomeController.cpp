@@ -52,10 +52,10 @@ void HomeController::deleteDevice() {
         noDevicesAvailable();
         return;
     }
-    int userChoice;
-    cout << "*************************************" << endl;
-    cout << "Enter the ID of the Device to Delete." << endl;
-    cout << "*************************************" << endl;
+    string userChoice;
+    cout << "**********************************************" << endl;
+    cout << "Copy and paste the ID of the Device to Delete." << endl;
+    cout << "**********************************************" << endl;
     showDevices();
     cout << "> ";
     cin >> userChoice;
@@ -81,7 +81,7 @@ void HomeController::deleteDevice() {
                 ),
                 devices.end()
             );
-            cout << "Device removed successfully." << endl;
+            cout <<  "Device removed successfully." << endl;
 
         } else {
             cout << "Action Canceled." << endl;
@@ -103,19 +103,33 @@ void HomeController::showDevices() {
         noDevicesAvailable();
 
     } else {
-        cout << endl << endl;
-        cout  << left << setw(15) << "Device ID" << setw(30) << "Device Name" << setw(45) << "Device Type" << endl;
-        cout << setw(15) << "---------" << setw(30) << "-----------" << setw(45) << "-----------" << endl;
+        cout << endl;
+        cout  << left 
+            << setw(40) << "Device ID" 
+            << setw(20) << "Device Name" 
+            << setw(15) << "Device Type" 
+            << endl;
+
+        cout << left
+            << setw(40) << "-----------" 
+            << setw(20) << "-----------" 
+            << setw(15) << "-----------" 
+            << endl;
 
         for (const auto& device : devices) {
-            cout << setw(15) << to_string(device->getId()) << setw(30) << device->getName() << setw(45) << device->getDeviceType() << '\n' << '\n';
+            cout << left
+                << setw(40) << device->getId() 
+                << setw(20) << device->getName() 
+                << setw(15) << device->getDeviceType() 
+                << '\n' 
+                << '\n';
         }
         cout << endl << endl;
     }
 }
 
 //Gets device by ID, uses try, catch block to handle device not found
-const SmartDevice* HomeController::getDeviceById(int Id) const {
+const SmartDevice* HomeController::getDeviceById(string Id) const {
     try
     {
         for (auto& device : devices) {

@@ -7,7 +7,7 @@ using namespace std;
 
 class SmartDevice{
     private:
-        int id;
+        string id;
         string name;
         string deviceType;
         bool status = false;
@@ -15,11 +15,11 @@ class SmartDevice{
         int pmSetPoint;
 
     public:
-        SmartDevice(int id, string name, string deviceType);
+        SmartDevice(string id, string name, string deviceType);
         virtual ~SmartDevice() = default;
         void activateDevice();
         void deavtivateDevice();
-        int getId();
+        string getId();
         string getName() const;
         string getDeviceType();
         bool getStatus();

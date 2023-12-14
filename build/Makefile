@@ -522,6 +522,30 @@ HomeAutomation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/build
 .PHONY : HomeAutomation/fast
 
+src/GenerateUUID.obj: src/GenerateUUID.cpp.obj
+.PHONY : src/GenerateUUID.obj
+
+# target to build an object file
+src/GenerateUUID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj
+.PHONY : src/GenerateUUID.cpp.obj
+
+src/GenerateUUID.i: src/GenerateUUID.cpp.i
+.PHONY : src/GenerateUUID.i
+
+# target to preprocess a source file
+src/GenerateUUID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.i
+.PHONY : src/GenerateUUID.cpp.i
+
+src/GenerateUUID.s: src/GenerateUUID.cpp.s
+.PHONY : src/GenerateUUID.s
+
+# target to generate assembly for a file
+src/GenerateUUID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.s
+.PHONY : src/GenerateUUID.cpp.s
+
 src/HomeController.obj: src/HomeController.cpp.obj
 .PHONY : src/HomeController.obj
 
@@ -778,6 +802,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... HomeAutomation
+	@echo ... src/GenerateUUID.obj
+	@echo ... src/GenerateUUID.i
+	@echo ... src/GenerateUUID.s
 	@echo ... src/HomeController.obj
 	@echo ... src/HomeController.i
 	@echo ... src/HomeController.s

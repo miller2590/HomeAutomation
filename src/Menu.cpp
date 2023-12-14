@@ -13,7 +13,7 @@
 using namespace std;
 
 //Menu constructor injects HomeController as dependency
-Menu::Menu(HomeController& homeController) : homeController(homeController){};
+Menu::Menu(HomeController& homeController, GenerateUUID& generateUUID) : homeController(homeController), generateUUID(generateUUID){};
 
 //Error message for failed actions
 void Menu::errorMessage() {
@@ -58,14 +58,14 @@ void Menu::setUpDeviceMenu() {
         case 1:
             // Will add id check for duplicates function/update id here
             clearBuffer();
-            homeController.addDevice(make_unique<Thermostat>(0, homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
+            homeController.addDevice(make_unique<Thermostat>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
             homeController.showDevices();
             clearBuffer();
             break;
         case 2:
             clearBuffer();
             // Will add id check for duplicates function/update id here
-            homeController.addDevice(make_unique<Television>(1, homeController.deviceNameConstruction(deviceType[1]), deviceType[1]));
+            homeController.addDevice(make_unique<Television>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[1]), deviceType[1]));
             homeController.showDevices();
             clearBuffer();
             
@@ -74,7 +74,7 @@ void Menu::setUpDeviceMenu() {
 
             clearBuffer();
             // Will add id check for duplicates function/update id here
-            homeController.addDevice(make_unique<Lights>(2, homeController.deviceNameConstruction(deviceType[2]), deviceType[2]));
+            homeController.addDevice(make_unique<Lights>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[2]), deviceType[2]));
             homeController.showDevices();
             clearBuffer();
 
@@ -83,7 +83,7 @@ void Menu::setUpDeviceMenu() {
 
             clearBuffer();
             // Will add id check for duplicates function/update id here
-            homeController.addDevice(make_unique<SecuritySystem>(3, homeController.deviceNameConstruction(deviceType[3]), deviceType[1]));
+            homeController.addDevice(make_unique<SecuritySystem>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[3]), deviceType[3]));
             homeController.showDevices();
             clearBuffer();
             break;

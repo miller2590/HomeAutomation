@@ -836,12 +836,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/HomeAutomation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target HomeAutomation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target HomeAutomation"
 .PHONY : CMakeFiles/HomeAutomation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HomeAutomation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HomeAutomation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles 0
 .PHONY : CMakeFiles/HomeAutomation.dir/rule

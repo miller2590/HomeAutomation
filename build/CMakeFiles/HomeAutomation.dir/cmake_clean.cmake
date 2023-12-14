@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj"
+  "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj.d"
   "CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj"
   "CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj.d"
   "CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj"

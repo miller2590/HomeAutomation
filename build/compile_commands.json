@@ -52,5 +52,11 @@
   "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\Vacuum.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\Vacuum.cpp",
   "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Vacuum.cpp",
   "output": "CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj"
+},
+{
+  "directory": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\HomeAutomation.dir\\src\\GenerateUUID.cpp.obj -c C:\\Users\\mille\\OneDrive\\Documents\\School\\Classes\\SystemDev340\\WeeklyCode\\HomeAutomation\\Code\\HomeAutomation\\src\\GenerateUUID.cpp",
+  "file": "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/GenerateUUID.cpp",
+  "output": "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj"
 }
 ]

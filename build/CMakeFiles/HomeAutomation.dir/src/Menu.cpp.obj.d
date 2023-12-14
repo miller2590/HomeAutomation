@@ -142,11 +142,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\stl_vector.h \
  c:\mingw64\include\c++\12.2.0\bits\stl_bvector.h \
  c:\mingw64\include\c++\12.2.0\bits\vector.tcc \
- c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\television.h \
- c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\thermostat.h \
- c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\lights.h \
- c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\securitysystem.h \
- c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\smartdevice.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\GenerateUUID.h \
  c:\mingw64\include\c++\12.2.0\iostream \
  c:\mingw64\include\c++\12.2.0\ostream c:\mingw64\include\c++\12.2.0\ios \
  c:\mingw64\include\c++\12.2.0\bits\ios_base.h \
@@ -169,10 +165,48 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\mingw64\include\c++\12.2.0\istream \
  c:\mingw64\include\c++\12.2.0\bits\istream.tcc \
+ c:\mingw64\include\c++\12.2.0\iomanip \
+ c:\mingw64\include\c++\12.2.0\locale \
+ c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.h \
+ c:\mingw64\include\c++\12.2.0\ctime \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\time_members.h \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\messages_members.h \
+ c:\mingw64\include\c++\12.2.0\bits\codecvt.h \
+ c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\locale_conv.h \
+ c:\mingw64\include\c++\12.2.0\bits\quoted_string.h \
+ c:\mingw64\include\c++\12.2.0\sstream \
+ c:\mingw64\include\c++\12.2.0\bits\sstream.tcc \
+ c:\mingw64\include\c++\12.2.0\random c:\mingw64\include\c++\12.2.0\cmath \
+ c:\mingw64\x86_64-w64-mingw32\include\math.h \
+ c:\mingw64\include\c++\12.2.0\bits\specfun.h \
  c:\mingw64\include\c++\12.2.0\limits \
+ c:\mingw64\include\c++\12.2.0\tr1\gamma.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\special_function_util.h \
+ c:\mingw64\include\c++\12.2.0\tr1\bessel_function.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\beta_function.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\ell_integral.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\exp_integral.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\hypergeometric.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\legendre_function.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\modified_bessel_func.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\poly_hermite.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\poly_laguerre.tcc \
+ c:\mingw64\include\c++\12.2.0\tr1\riemann_zeta.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\random.h \
+ c:\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\opt_random.h \
+ c:\mingw64\include\c++\12.2.0\bits\random.tcc \
+ c:\mingw64\include\c++\12.2.0\numeric \
+ c:\mingw64\include\c++\12.2.0\bits\stl_numeric.h \
+ c:\mingw64\include\c++\12.2.0\pstl\glue_numeric_defs.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\television.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\thermostat.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\lights.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\securitysystem.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\smartdevice.h \
  c:\mingw64\include\c++\12.2.0\algorithm \
  c:\mingw64\include\c++\12.2.0\bits\stl_algo.h \
  c:\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
  c:\mingw64\include\c++\12.2.0\bits\stl_heap.h \
- c:\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
  c:\mingw64\include\c++\12.2.0\pstl\glue_algorithm_defs.h

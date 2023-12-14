@@ -3,7 +3,7 @@
 
 using namespace std;
 
-SecuritySystem::SecuritySystem(int id, string name, string deviceType) : SmartDevice(id, name, deviceType){};
+SecuritySystem::SecuritySystem(string id, string name, string deviceType) : SmartDevice(id, name, deviceType){};
 
 //This will return an int
 void SecuritySystem::getSensitivity() {

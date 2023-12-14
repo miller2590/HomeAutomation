@@ -1,4 +1,5 @@
 #include "../include/HomeController.h"
+#include "../include/GenerateUUID.h"
 #include "../include/Lights.h"
 #include "../include/Menu.h"
 #include "../include/SecuritySystem.h"
@@ -13,8 +14,9 @@ using namespace std;
 int main() {
 
     HomeController homeController;
+    GenerateUUID generateUUID;
     
-    Menu menu(homeController);
+    Menu menu(homeController, generateUUID);
     menu.runMenu();
 
     return 0;

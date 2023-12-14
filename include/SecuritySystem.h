@@ -10,7 +10,7 @@ class SecuritySystem : public SmartDevice{
         bool alarmIsOn;
 
     public:
-        SecuritySystem(int id, string name, string deviceType);
+        SecuritySystem(string id, string name, string deviceType);
         //This will return an int
         void getSensitivity();
         //This will return a bool

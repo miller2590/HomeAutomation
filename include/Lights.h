@@ -5,7 +5,7 @@
 
 class Lights : public SmartDevice{
     public:
-        Lights(int id, string name, string deviceType);
+        Lights(string id, string name, string deviceType);
         void testMessage();
 };
 

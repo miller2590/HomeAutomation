@@ -15,6 +15,7 @@ add_executable(
     ./src/Television.cpp
     ./src/Thermostat.cpp
     ./src/Vacuum.cpp
+    ./src/GenerateUUID.cpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

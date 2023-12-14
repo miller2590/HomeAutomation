@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/GenerateUUID.cpp" "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj" "gcc" "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj.d"
   "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/HomeController.cpp" "CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj" "gcc" "CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj.d"
   "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Lights.cpp" "CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj" "gcc" "CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj.d"
   "C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp" "CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj" "gcc" "CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj.d"

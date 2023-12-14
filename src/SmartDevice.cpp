@@ -3,7 +3,7 @@
 #include <string>
 
 //SmartDevice constructor
-SmartDevice::SmartDevice(int id, string name, string deviceType) : id(id), name(name), deviceType(deviceType) {};
+SmartDevice::SmartDevice(string id, string name, string deviceType) : id(id), name(name), deviceType(deviceType) {};
 
 void SmartDevice::activateDevice() {
     cout << "Device Activated..." << endl;
@@ -14,7 +14,7 @@ void SmartDevice::deavtivateDevice() {
 }
 
 //This will return int
-int SmartDevice::getId() {
+string SmartDevice::getId() {
     return id;
 }
 
