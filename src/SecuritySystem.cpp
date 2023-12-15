@@ -5,24 +5,21 @@ using namespace std;
 
 SecuritySystem::SecuritySystem(string id, string name, string deviceType) : SmartDevice(id, name, deviceType){};
 
-//This will return an int
-void SecuritySystem::getSensitivity() {
-    cout << "Sensitivity is {}..." << endl;
 
+int SecuritySystem::getSensitivity() {
+    return sensitivity;
 };
 
-//This will return a bool
 void SecuritySystem::getMotionLightsIsOn() {
     cout << "Motion Lights are On..." << endl;
 }
 
-//This will return a bool
 void SecuritySystem::getAlarmIsOn() {
     cout << "Alarm is On..." << endl;
 }
 
-void SecuritySystem::setSensitivity() {
-    cout << "Setting Sensitivity to {}..." << endl;
+void SecuritySystem::setSensitivity(int newSensitivity) {
+    sensitivity = newSensitivity;
 }
 
 void SecuritySystem::setMotionLightIsOn() {

@@ -19,5 +19,6 @@ int main() {
     Menu menu(homeController, generateUUID);
     menu.runMenu();
 
+    homeController.stopAutomationLoop();
     return 0;
 }

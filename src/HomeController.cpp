@@ -6,21 +6,35 @@
 #include <tuple>
 #include <algorithm>
 #include <stdexcept>
+#include <regex>
 
 using namespace std;
 
 //HomeController constructor
-HomeController::HomeController(){
-    //I think these will have to check if the user opted for a manual override.
-    //If so, these functions will be exited. Might have to take them out of the
-    //constructor. 
-    runAmMode();
-    runPmMode();
-    getDateTime();
-};
+HomeController::HomeController(){};
 
 //HomeController destructor
-HomeController::~HomeController(){};
+HomeController::~HomeController(){
+    if (automationThread.joinable()) {
+        automationThread.join();
+    }
+};
+
+bool HomeController::isValidAmFormat(const string& timeString) {
+    // Valid AM time regex
+    regex amTimeRegex("^(0[0-9]|1[0-1]):[0-5][0-9]$");
+
+    // Check if the input string matches the regex
+    return regex_match(timeString, amTimeRegex);
+}
+
+bool HomeController::isValidPmFormat(const string& timeString) {
+    // Valid PM time regex
+    std::regex pmTimeRegex("^(12:[0-5][0-9]|1[0-9]|2[0-3]):[0-5][0-9]$");
+
+    // Check if the input string matches the regex
+    return std::regex_match(timeString, pmTimeRegex);
+}
 
 //This functon creates a device name and type based on user input
 string HomeController::deviceNameConstruction(string deviceType) {
@@ -104,7 +118,7 @@ void HomeController::showDevices() {
 
     } else {
         cout << endl;
-        cout  << left 
+        cout << left 
             << setw(40) << "Device ID" 
             << setw(20) << "Device Name" 
             << setw(15) << "Device Type" 
@@ -129,7 +143,7 @@ void HomeController::showDevices() {
 }
 
 //Gets device by ID, uses try, catch block to handle device not found
-const SmartDevice* HomeController::getDeviceById(string Id) const {
+SmartDevice* HomeController::getDeviceById(string Id) const {
     try
     {
         for (auto& device : devices) {
@@ -147,59 +161,209 @@ const SmartDevice* HomeController::getDeviceById(string Id) const {
     return nullptr;
 }
 
-//Will handle AM automation
-void HomeController::runAmMode() {
-    cout << "AM mode running..." << endl;
-}
-
-//Will handle PM automation
-void HomeController::runPmMode() {
-    cout << "PM mode running..." << endl;
-}
-
-//DateTime may need to be a public function,
-//will re-assess this choice
-void HomeController::getDateTime() {
+void HomeController::getDateTime(string& date, string& time) const {
     time_t currentTime = std::time(0);
+    struct tm* timeInfo = std::localtime(&currentTime);
 
-    string currentTimeString = ctime(&currentTime);
+    // Format the date
+    char dateBuffer[12];  // Mon Jan 01
+    std::strftime(dateBuffer, sizeof(dateBuffer), "%a %b %d", timeInfo);
+    date = std::string(dateBuffer);
 
-    cout << "Current time and date: " << currentTimeString << endl; 
+    // Format the time
+    char timeBuffer[6];  // HH:MM:SS
+    std::strftime(timeBuffer, sizeof(timeBuffer), "%H:%M", timeInfo);
+    time = std::string(timeBuffer);
 }
 
-/*
-******************************************************
-*These two will be the meat of the system. I think
-*that they will just save the vector of devices and
-*the AM and PM settings. Once loaded, the program will
-*set itself up.
-******************************************************
-*/
-void HomeController::loadConfig() {
-    cout << "Load Config File..." << endl;
-}
-
-void HomeController::saveConfig() {
-    cout << "Save Config File..." << endl;
-}
-//******************************************************
-
-//This will likely utilize both AM and PM Mode
-//to have one robust function.
 void HomeController::runAutomation() {
-    cout << "Running Automation Task..." << endl;
+    if (devices.empty()) {
+        noDevicesAvailable();
+        return;
+    } 
+
+    string userChoice;
+    cout << "**********************************************" << endl;
+    cout << "Copy and paste the ID of the Device to Automate." << endl;
+    cout << "**********************************************" << endl;
+    showDevices();
+    cout << "> ";
+    cin >> userChoice;
+    
+    SmartDevice* deviceToAutomate = getDeviceById(userChoice);
+
+    if (deviceToAutomate) {
+        string userAmChoice, userPmChoice;
+
+        cout << "Current Settings" << endl;
+        cout << "*************************" << endl;
+        deviceToAutomate->displayCurrentSettings();
+
+        cout << "Please enter AM start time. HH:MM 24hr Format" << endl;
+        cout << "> ";
+        cin >> userAmChoice;
+
+        cout << "Please enter PM stop time. HH:MM 24hr Format" << endl;
+        cout << "> ";
+        cin >> userPmChoice;
+
+        if (isValidAmFormat(userAmChoice) && isValidPmFormat(userPmChoice)) {
+            deviceToAutomate->setAmSetPoint(userAmChoice);
+            deviceToAutomate->setPmSetPoint(userPmChoice);
+            cout << "Start and Stop times set." << endl;
+        } 
+        else {
+            cout << "**************" << endl;
+            cout << "Invalid Entry." << endl;
+            cout << "**************" << endl;
+            return;
+        }
+
+        if (Thermostat* thermostat = dynamic_cast<Thermostat*>(deviceToAutomate)) {
+            
+            int userAmTemp, userPmTemp;
+            cout << "Please enter AM temperature (60 - 80): ";
+            cin >> userAmTemp;
+
+            if (userAmTemp >= 60 && userAmTemp <= 80) {
+                thermostat->setAmTemp(userAmTemp);
+
+                cout << "Please enter PM temperature (60 - 80): ";
+                cin >> userPmTemp;
+                if (userPmTemp >= 60 && userPmTemp <= 80) {
+                    thermostat->setPmTemp(userPmTemp);
+                    cout << "Temperatures Set." << endl;
+                } else {
+                    cout << "Please enter a temp between 60 & 80." << endl;
+                    return;
+                }
+ 
+            } else {
+                cout << "Please enter a temp between 60 & 80." << endl;
+                return;
+            }
+            
+        } else if (Television* television = dynamic_cast<Television*>(deviceToAutomate)) {
+            confirmAndRunAutomation();
+            cout << "Television Times Set." << endl;
+            return;
+
+        } else if (Lights* lights = dynamic_cast<Lights*>(deviceToAutomate)) {
+            confirmAndRunAutomation();
+            cout << "Light times set" << endl;
+            return;
+
+        } else if (SecuritySystem* securitySystem = dynamic_cast<SecuritySystem*>(deviceToAutomate)) {
+            int userSensitivity;
+            cout << "Please enter security light sensitivity (1 - 5)";
+            cout << "> ";
+            if (cin >> userSensitivity) {
+                //Check for whole number
+                if (userSensitivity >=1 && userSensitivity <= 5) {
+                    securitySystem->setSensitivity(userSensitivity);
+                    confirmAndRunAutomation();
+                    cout << "Sensitivity Set." << endl;
+                } else {
+                    cout << "Please Enter a number between 1 & 5." << endl;
+                    return;
+                }
+            } else {
+                cout << "Please Enter a Whole Number." << endl;
+                return;
+            }
+        } else {
+            cout << "This device type is not supported for automation." << endl;
+            return;
+        }
+        confirmAndRunAutomation();
+    }
 }
 
-//This function should be simple enough.
-//I'm thinking a setStatus call and automation override.
 void HomeController::manualOverride() {
-    cout << "Running Manual Override..." << endl;
+    stopAutomationLoop();
+    cout << "Manual Override..." << endl;
+}
+
+void HomeController::startAutomationLoop() {
+    automationRunning = true;
+    automationThread = thread([this]() {
+        // Write the initial device settings to the file
+        writeDeviceSettingsToFile();
+
+        while (automationRunning) {
+            string currentDate, currentTime;
+            getDateTime(currentDate, currentTime);
+            for (auto& device : devices) {
+                if (device->getAmSetPoint() == currentTime) {
+                    device->setStatus();
+                    writeDeviceSettingsToFile();
+                }
+                if (device->getPmSetPoint() == currentTime) {
+                    device->setStatus();
+                    writeDeviceSettingsToFile();
+                }
+            }
+            this_thread::sleep_for(chrono::seconds(30));
+        }
+    });
+}
+
+void HomeController::stopAutomationLoop() {
+    automationRunning = false;
+    if (automationThread.joinable()) {
+        automationThread.join();
+    }
+}
+
+void HomeController::confirmAndRunAutomation() {
+    string userConfirmation;
+    cout << "Have you finished setting up your devices? 1: Yes, 2: No" << endl;
+    cin >> userConfirmation;
+
+    if (userConfirmation == "1") {
+        startAutomationLoop();
+    } else {
+        cout << "Please finish setting up your devices." << endl;
+    }
+
+}
+
+void HomeController::writeDeviceSettingsToFile() {
+    // Get the absolute path of the file
+    filesystem::path filePath = filesystem::absolute("device_status.txt");
+
+    // Print the path
+    cout << endl;
+    cout << "File path: " << filePath << endl;
+    cout << "> ";
+    // Open a file in append mode
+    ofstream outfile(filePath, ios_base::app);
+
+    // Check if the file was opened successfully
+    if (!outfile) {
+        cout << endl;
+        cout << "Failed to open the file." << endl << endl;
+        cout << "> ";
+        return;
+    }
+
+    for (auto& device : devices) {
+        // Write the device status to the file
+        outfile << "Device ID: " << device->getId() << "\n"
+                << "Device Name: " << device->getName() << "\n"
+                << "Device Type: " << device->getDeviceType() << "\n"
+                << "Current status: " << device->getStatus() << "\n"
+                << "Current AM start time: " << device->getAmSetPoint() << "\n"
+                << "Current PM Start time: " << device->getPmSetPoint() << "\n\n";
+    }
+
+    // Close the file
+    outfile.close();
 }
 
 void HomeController::noDevicesAvailable() {
-    cout << "##################################" << endl;
+    cout << "#########################" << endl;
     cout << "There are no Devices yet!" << endl;
-    cout << "Select option (1) to add a device!" << endl;
-    cout << "##################################" << endl;
+    cout << "#########################" << endl;
     cout << endl << endl;
 }

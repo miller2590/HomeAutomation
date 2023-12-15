@@ -56,7 +56,6 @@ void Menu::setUpDeviceMenu() {
         switch (userOption)
         {
         case 1:
-            // Will add id check for duplicates function/update id here
             clearBuffer();
             homeController.addDevice(make_unique<Thermostat>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[0]), deviceType[0]));
             homeController.showDevices();
@@ -64,25 +63,20 @@ void Menu::setUpDeviceMenu() {
             break;
         case 2:
             clearBuffer();
-            // Will add id check for duplicates function/update id here
             homeController.addDevice(make_unique<Television>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[1]), deviceType[1]));
             homeController.showDevices();
             clearBuffer();
             
             break;
         case 3:
-
             clearBuffer();
-            // Will add id check for duplicates function/update id here
             homeController.addDevice(make_unique<Lights>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[2]), deviceType[2]));
             homeController.showDevices();
             clearBuffer();
 
             break;
         case 4:
-
             clearBuffer();
-            // Will add id check for duplicates function/update id here
             homeController.addDevice(make_unique<SecuritySystem>(generateUUID.generator(), homeController.deviceNameConstruction(deviceType[3]), deviceType[3]));
             homeController.showDevices();
             clearBuffer();
@@ -96,6 +90,38 @@ void Menu::setUpDeviceMenu() {
         }
     } while (userOption != 5);
     
+}
+
+void Menu::setUpAutomationMenu() {
+    int userOption;
+    
+    do {
+        cout << "*****************************" << endl;
+        cout << "Please make a Selection." << endl;
+        cout << "1. Automate a Device." << endl;
+        cout << "2. Manually operate a device." << endl;
+        cout << "3. Return to Main Menu." << endl;
+        cout << "*****************************" << endl;
+        cout << "> ";
+
+        cin >> userOption;
+
+        switch (userOption)
+        {
+        case 1:
+            homeController.runAutomation();
+            break;
+        case 2:
+            homeController.manualOverride();
+            break;
+        case 3:
+            cout << "Returning to Main Menu..." << endl;
+            break;
+        default:
+            errorMessage();
+            break;
+        }
+    } while (userOption != 3);
 }
 
 //Main menu options
@@ -126,8 +152,8 @@ void Menu::runMenu() {
             homeController.showDevices();
             break;
         case 3:
-            //This is my next portion to tackle this week
-            cout << "Your Device is magically automated now." << endl;
+            
+            setUpAutomationMenu();
             break;
         case 4:
             homeController.deleteDevice();

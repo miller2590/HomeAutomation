@@ -9,7 +9,6 @@ class Television : public SmartDevice {
 
     public:
         Television(string id, string name, string deviceType);
-        //This will return int
         void getChannel();
         void setChannel();
 };

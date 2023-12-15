@@ -12,12 +12,12 @@ class SecuritySystem : public SmartDevice{
     public:
         SecuritySystem(string id, string name, string deviceType);
         //This will return an int
-        void getSensitivity();
+        int getSensitivity();
         //This will return a bool
         void getMotionLightsIsOn();
         //This will return a bool
         void getAlarmIsOn();
-        void setSensitivity();
+        void setSensitivity(int newSensitivity);
         void setMotionLightIsOn();
         void setAlarmIsOn();
 

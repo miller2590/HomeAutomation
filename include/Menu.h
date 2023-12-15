@@ -13,6 +13,7 @@ class Menu{
     void errorMessage();
     void clearBuffer();
     void setUpDeviceMenu();
+    void setUpAutomationMenu();
     
     public:
         Menu(HomeController& homeController, GenerateUUID& generateUUID);

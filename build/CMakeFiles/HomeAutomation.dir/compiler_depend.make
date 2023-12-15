@@ -203,14 +203,21 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
   C:/mingw64/include/c++/12.2.0/bits/char_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/mingw64/include/c++/12.2.0/bits/chrono.h \
   C:/mingw64/include/c++/12.2.0/bits/codecvt.h \
   C:/mingw64/include/c++/12.2.0/bits/concept_check.h \
   C:/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
   C:/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+  C:/mingw64/include/c++/12.2.0/bits/deque.tcc \
   C:/mingw64/include/c++/12.2.0/bits/exception.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_defines.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_path.h \
+  C:/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/functexcept.h \
   C:/mingw64/include/c++/12.2.0/bits/functional_hash.h \
   C:/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
@@ -229,45 +236,69 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/bits/move.h \
   C:/mingw64/include/c++/12.2.0/bits/nested_exception.h \
   C:/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/mingw64/include/c++/12.2.0/bits/node_handle.h \
   C:/mingw64/include/c++/12.2.0/bits/ostream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
   C:/mingw64/include/c++/12.2.0/bits/postypes.h \
   C:/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
   C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/quoted_string.h \
   C:/mingw64/include/c++/12.2.0/bits/range_access.h \
   C:/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/regex_automaton.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_automaton.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/regex_compiler.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_compiler.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/regex_constants.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_error.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_executor.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_executor.tcc \
+  C:/mingw64/include/c++/12.2.0/bits/regex_scanner.h \
+  C:/mingw64/include/c++/12.2.0/bits/regex_scanner.tcc \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
   C:/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/mingw64/include/c++/12.2.0/bits/std_function.h \
+  C:/mingw64/include/c++/12.2.0/bits/std_thread.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algo.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_deque.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_function.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_heap.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_map.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_pair.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_stack.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
+  C:/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_vector.h \
   C:/mingw64/include/c++/12.2.0/bits/streambuf.tcc \
   C:/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/string_view.tcc \
   C:/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h \
   C:/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
   C:/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
   C:/mingw64/include/c++/12.2.0/bits/utility.h \
   C:/mingw64/include/c++/12.2.0/bits/vector.tcc \
+  C:/mingw64/include/c++/12.2.0/bitset \
   C:/mingw64/include/c++/12.2.0/cctype \
   C:/mingw64/include/c++/12.2.0/cerrno \
+  C:/mingw64/include/c++/12.2.0/chrono \
   C:/mingw64/include/c++/12.2.0/clocale \
+  C:/mingw64/include/c++/12.2.0/codecvt \
   C:/mingw64/include/c++/12.2.0/cstdint \
   C:/mingw64/include/c++/12.2.0/cstdio \
   C:/mingw64/include/c++/12.2.0/cstdlib \
@@ -276,6 +307,7 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/cwctype \
   C:/mingw64/include/c++/12.2.0/debug/assertions.h \
   C:/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/mingw64/include/c++/12.2.0/deque \
   C:/mingw64/include/c++/12.2.0/exception \
   C:/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
   C:/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
@@ -284,12 +316,15 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/12.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/mingw64/include/c++/12.2.0/filesystem \
+  C:/mingw64/include/c++/12.2.0/fstream \
   C:/mingw64/include/c++/12.2.0/initializer_list \
   C:/mingw64/include/c++/12.2.0/iomanip \
   C:/mingw64/include/c++/12.2.0/ios \
   C:/mingw64/include/c++/12.2.0/iosfwd \
   C:/mingw64/include/c++/12.2.0/iostream \
   C:/mingw64/include/c++/12.2.0/istream \
+  C:/mingw64/include/c++/12.2.0/limits \
   C:/mingw64/include/c++/12.2.0/locale \
   C:/mingw64/include/c++/12.2.0/memory \
   C:/mingw64/include/c++/12.2.0/new \
@@ -298,20 +333,26 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/mingw64/include/c++/12.2.0/ratio \
+  C:/mingw64/include/c++/12.2.0/regex \
   C:/mingw64/include/c++/12.2.0/sstream \
+  C:/mingw64/include/c++/12.2.0/stack \
   C:/mingw64/include/c++/12.2.0/stdexcept \
   C:/mingw64/include/c++/12.2.0/stdlib.h \
   C:/mingw64/include/c++/12.2.0/streambuf \
   C:/mingw64/include/c++/12.2.0/string \
   C:/mingw64/include/c++/12.2.0/string_view \
   C:/mingw64/include/c++/12.2.0/system_error \
+  C:/mingw64/include/c++/12.2.0/thread \
   C:/mingw64/include/c++/12.2.0/tuple \
   C:/mingw64/include/c++/12.2.0/type_traits \
   C:/mingw64/include/c++/12.2.0/typeinfo \
   C:/mingw64/include/c++/12.2.0/vector \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -366,7 +407,11 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: C:/Users/mille/OneDriv
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h
 
 CMakeFiles/HomeAutomation.dir/src/Lights.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Lights.cpp \
@@ -529,6 +574,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
   C:/mingw64/include/c++/12.2.0/bits/char_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/mingw64/include/c++/12.2.0/bits/chrono.h \
   C:/mingw64/include/c++/12.2.0/bits/codecvt.h \
   C:/mingw64/include/c++/12.2.0/bits/concept_check.h \
   C:/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
@@ -537,6 +583,11 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/exception.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_defines.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_path.h \
+  C:/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/functexcept.h \
   C:/mingw64/include/c++/12.2.0/bits/functional_hash.h \
   C:/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
@@ -557,6 +608,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/new_allocator.h \
   C:/mingw64/include/c++/12.2.0/bits/ostream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
   C:/mingw64/include/c++/12.2.0/bits/postypes.h \
   C:/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
   C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
@@ -571,6 +623,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/specfun.h \
   C:/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/mingw64/include/c++/12.2.0/bits/std_thread.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algo.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
@@ -590,6 +643,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/string_view.tcc \
   C:/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h \
   C:/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
   C:/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
@@ -597,8 +651,10 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/vector.tcc \
   C:/mingw64/include/c++/12.2.0/cctype \
   C:/mingw64/include/c++/12.2.0/cerrno \
+  C:/mingw64/include/c++/12.2.0/chrono \
   C:/mingw64/include/c++/12.2.0/clocale \
   C:/mingw64/include/c++/12.2.0/cmath \
+  C:/mingw64/include/c++/12.2.0/codecvt \
   C:/mingw64/include/c++/12.2.0/cstdint \
   C:/mingw64/include/c++/12.2.0/cstdio \
   C:/mingw64/include/c++/12.2.0/cstdlib \
@@ -615,6 +671,8 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/12.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/mingw64/include/c++/12.2.0/filesystem \
+  C:/mingw64/include/c++/12.2.0/fstream \
   C:/mingw64/include/c++/12.2.0/initializer_list \
   C:/mingw64/include/c++/12.2.0/iomanip \
   C:/mingw64/include/c++/12.2.0/ios \
@@ -633,6 +691,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
   C:/mingw64/include/c++/12.2.0/random \
+  C:/mingw64/include/c++/12.2.0/ratio \
   C:/mingw64/include/c++/12.2.0/sstream \
   C:/mingw64/include/c++/12.2.0/stdexcept \
   C:/mingw64/include/c++/12.2.0/stdlib.h \
@@ -640,6 +699,7 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/string \
   C:/mingw64/include/c++/12.2.0/string_view \
   C:/mingw64/include/c++/12.2.0/system_error \
+  C:/mingw64/include/c++/12.2.0/thread \
   C:/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
   C:/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
   C:/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
@@ -657,8 +717,10 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/typeinfo \
   C:/mingw64/include/c++/12.2.0/vector \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -717,7 +779,11 @@ CMakeFiles/HomeAutomation.dir/src/Menu.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/GenerateUUID.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Menu.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h \
@@ -1450,6 +1516,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
   C:/mingw64/include/c++/12.2.0/bits/char_traits.h \
   C:/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/mingw64/include/c++/12.2.0/bits/chrono.h \
   C:/mingw64/include/c++/12.2.0/bits/codecvt.h \
   C:/mingw64/include/c++/12.2.0/bits/concept_check.h \
   C:/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
@@ -1458,6 +1525,11 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/exception.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_defines.h \
   C:/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+  C:/mingw64/include/c++/12.2.0/bits/fs_path.h \
+  C:/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/functexcept.h \
   C:/mingw64/include/c++/12.2.0/bits/functional_hash.h \
   C:/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
@@ -1478,6 +1550,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/new_allocator.h \
   C:/mingw64/include/c++/12.2.0/bits/ostream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
   C:/mingw64/include/c++/12.2.0/bits/postypes.h \
   C:/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
   C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
@@ -1492,6 +1565,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/specfun.h \
   C:/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   C:/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/mingw64/include/c++/12.2.0/bits/std_thread.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
   C:/mingw64/include/c++/12.2.0/bits/stl_construct.h \
@@ -1509,6 +1583,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
   C:/mingw64/include/c++/12.2.0/bits/string_view.tcc \
   C:/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h \
   C:/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
   C:/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
   C:/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
@@ -1516,8 +1591,10 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/bits/vector.tcc \
   C:/mingw64/include/c++/12.2.0/cctype \
   C:/mingw64/include/c++/12.2.0/cerrno \
+  C:/mingw64/include/c++/12.2.0/chrono \
   C:/mingw64/include/c++/12.2.0/clocale \
   C:/mingw64/include/c++/12.2.0/cmath \
+  C:/mingw64/include/c++/12.2.0/codecvt \
   C:/mingw64/include/c++/12.2.0/cstdint \
   C:/mingw64/include/c++/12.2.0/cstdio \
   C:/mingw64/include/c++/12.2.0/cstdlib \
@@ -1534,6 +1611,8 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/12.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/mingw64/include/c++/12.2.0/filesystem \
+  C:/mingw64/include/c++/12.2.0/fstream \
   C:/mingw64/include/c++/12.2.0/initializer_list \
   C:/mingw64/include/c++/12.2.0/iomanip \
   C:/mingw64/include/c++/12.2.0/ios \
@@ -1551,6 +1630,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
   C:/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
   C:/mingw64/include/c++/12.2.0/random \
+  C:/mingw64/include/c++/12.2.0/ratio \
   C:/mingw64/include/c++/12.2.0/sstream \
   C:/mingw64/include/c++/12.2.0/stdexcept \
   C:/mingw64/include/c++/12.2.0/stdlib.h \
@@ -1558,6 +1638,7 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/string \
   C:/mingw64/include/c++/12.2.0/string_view \
   C:/mingw64/include/c++/12.2.0/system_error \
+  C:/mingw64/include/c++/12.2.0/thread \
   C:/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
   C:/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
   C:/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
@@ -1575,8 +1656,10 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/include/c++/12.2.0/typeinfo \
   C:/mingw64/include/c++/12.2.0/vector \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -1635,7 +1718,11 @@ CMakeFiles/HomeAutomation.dir/src/main.cpp.obj: C:/Users/mille/OneDrive/Document
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/GenerateUUID.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h \
+  C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Thermostat.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/GenerateUUID.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h \
   C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h \
@@ -1737,6 +1824,8 @@ C:/mingw64/include/c++/12.2.0/bits/functexcept.h:
 
 C:/mingw64/include/c++/12.2.0/bits/locale_classes.tcc:
 
+C:/mingw64/include/c++/12.2.0/bits/std_thread.h:
+
 C:/mingw64/include/c++/12.2.0/bits/std_abs.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
@@ -1789,6 +1878,8 @@ C:/mingw64/include/c++/12.2.0/tuple:
 
 C:/mingw64/include/c++/12.2.0/bits/move.h:
 
+C:/mingw64/include/c++/12.2.0/bits/node_handle.h:
+
 C:/mingw64/include/c++/12.2.0/bits/ostream.tcc:
 
 C:/mingw64/include/c++/12.2.0/bits/ptr_traits.h:
@@ -1810,6 +1901,8 @@ C:/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h:
 C:/mingw64/include/c++/12.2.0/bits/stl_pair.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_tree.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stringfwd.h:
 
@@ -1867,6 +1960,8 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
 C:/mingw64/include/c++/12.2.0/initializer_list:
 
+C:/mingw64/include/c++/12.2.0/bits/regex_scanner.h:
+
 C:/mingw64/include/c++/12.2.0/iomanip:
 
 C:/mingw64/include/c++/12.2.0/bits/unique_ptr.h:
@@ -1888,6 +1983,8 @@ C:/mingw64/include/c++/12.2.0/new:
 C:/mingw64/include/c++/12.2.0/numeric:
 
 C:/mingw64/include/c++/12.2.0/ostream:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_executor.tcc:
 
 C:/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h:
 
@@ -1953,6 +2050,8 @@ C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h:
 
+C:/mingw64/include/c++/12.2.0/bits/regex_constants.h:
+
 C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h:
@@ -1964,6 +2063,8 @@ C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/mingw64/include/c++/12.2.0/bits/parse_numbers.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
@@ -2039,6 +2140,8 @@ C:/mingw64/include/c++/12.2.0/backward/auto_ptr.h:
 
 C:/mingw64/include/c++/12.2.0/ext/concurrence.h:
 
+C:/mingw64/include/c++/12.2.0/bits/deque.tcc:
+
 C:/mingw64/include/c++/12.2.0/bits/algorithmfwd.h:
 
 C:/mingw64/include/c++/12.2.0/bits/align.h:
@@ -2047,41 +2150,105 @@ C:/mingw64/include/c++/12.2.0/bits/allocated_ptr.h:
 
 C:/mingw64/include/c++/12.2.0/bits/atomic_base.h:
 
+C:/mingw64/include/c++/12.2.0/bits/chrono.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_compiler.tcc:
+
+C:/mingw64/include/c++/12.2.0/bits/fs_dir.h:
+
+C:/mingw64/include/c++/12.2.0/bits/fs_fwd.h:
+
+C:/mingw64/include/c++/12.2.0/bits/fs_ops.h:
+
+C:/mingw64/include/c++/12.2.0/bits/fs_path.h:
+
+C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h:
+
+C:/mingw64/include/c++/12.2.0/bits/fstream.tcc:
+
+C:/mingw64/include/c++/12.2.0/bits/regex.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex.tcc:
+
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_automaton.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_automaton.tcc:
+
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_compiler.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_error.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_executor.h:
+
+C:/mingw64/include/c++/12.2.0/bits/regex_scanner.tcc:
+
 C:/mingw64/include/c++/12.2.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h:
 
-C:/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h:
+C:/mingw64/include/c++/12.2.0/bits/std_function.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_algo.h:
 
+C:/mingw64/include/c++/12.2.0/bits/stl_deque.h:
+
 C:/mingw64/include/c++/12.2.0/bits/stl_heap.h:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_map.h:
+
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp:
+
+C:/mingw64/include/c++/12.2.0/bits/stl_stack.h:
 
 C:/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h:
 
+C:/mingw64/include/c++/12.2.0/bits/this_thread_sleep.h:
+
 C:/mingw64/include/c++/12.2.0/bits/uses_allocator.h:
+
+C:/mingw64/include/c++/12.2.0/bitset:
+
+C:/mingw64/include/c++/12.2.0/chrono:
+
+C:/mingw64/include/c++/12.2.0/codecvt:
+
+C:/mingw64/include/c++/12.2.0/deque:
 
 C:/mingw64/include/c++/12.2.0/ext/aligned_buffer.h:
 
+C:/mingw64/include/c++/12.2.0/filesystem:
+
+C:/mingw64/include/c++/12.2.0/fstream:
+
 C:/mingw64/include/c++/12.2.0/memory:
 
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h:
+C:/mingw64/include/c++/12.2.0/ratio:
 
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/HomeController.h:
+C:/mingw64/include/c++/12.2.0/regex:
+
+C:/mingw64/include/c++/12.2.0/stack:
+
+C:/mingw64/include/c++/12.2.0/thread:
+
+C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h:
+
+C:/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Lights.h:
+
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h:
+
+C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SmartDevice.h:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Menu.cpp:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Menu.h:
 
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/SecuritySystem.h:
-
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/include/Television.h:
-
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SecuritySystem.cpp:
-
-C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/SmartDevice.cpp:
 
 C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Thermostat.cpp:
 

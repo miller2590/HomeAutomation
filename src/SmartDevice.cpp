@@ -5,15 +5,12 @@
 //SmartDevice constructor
 SmartDevice::SmartDevice(string id, string name, string deviceType) : id(id), name(name), deviceType(deviceType) {};
 
-void SmartDevice::activateDevice() {
-    cout << "Device Activated..." << endl;
+void SmartDevice::displayCurrentSettings() const{
+    cout << "Current status: " << to_string(status) << endl;
+    cout << "Current AM start time: " << amSetPoint << endl;
+    cout << "Current PM Start time: " << pmSetPoint << endl;
 }
 
-void SmartDevice::deavtivateDevice() {
-    cout << "Device Deavtivated..." << endl;
-}
-
-//This will return int
 string SmartDevice::getId() {
     return id;
 }
@@ -26,50 +23,42 @@ string SmartDevice::getDeviceType() {
     return deviceType;
 }
 
-//This will return bool
+
 bool SmartDevice::getStatus() {
     return status;
 }
 
-//This will return int
-void SmartDevice::getAmSetPoint() {
-    cout << "Device AM set point..." << endl;
+
+string SmartDevice::getAmSetPoint() {
+    return amSetPoint;
 }
 
 //This will return int
-void SmartDevice::getPmSetPoint() {
-    cout << "Device PM set point..." << endl;
+string SmartDevice::getPmSetPoint() {
+    return pmSetPoint;
 }
 
-void SmartDevice::setId(int newId) {
-    //This will use a getDevices() function in oreder to sort through 
-    //Device id's and make sure there are no duplicates.
-    //Or, I will use UUID
+void SmartDevice::setId(string newId) {  
     id = newId;
 }
 
 void SmartDevice::setName(string newName) {
-    //This will use a getDevices() function in order to sort through 
-    //Device names and make sure there are no duplicates.
     name = newName;
 }
 
-void SmartDevice::setSatus() {
-    //I don't think I like this, it could get confusing
-    //as to which state it is in currently.
-    //I will likely just take an input as to
-    //which status the user/program will need.
-    if (status) {
+void SmartDevice::setStatus() {
+    
+    if (status == true) {
         status = false;
     } else {
         status = true;
     }
 }
 
-void SmartDevice::setAmSetPoint() {
-    cout << "Set AM set point..." << endl;
+void SmartDevice::setAmSetPoint(string newAmSetPoint) {
+    amSetPoint = newAmSetPoint;
 }
 
-void SmartDevice::setPmSetPoint() {
-    cout << "Set PM set point..." << endl;
+void SmartDevice::setPmSetPoint(string newPmSetPoint) {
+    pmSetPoint = newPmSetPoint;
 }

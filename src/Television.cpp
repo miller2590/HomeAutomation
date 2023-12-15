@@ -5,7 +5,7 @@ using namespace std;
 
 Television::Television(string id, string name, string deviceType) : SmartDevice(id, name, deviceType) {};
 
-//This will return int
+
 void Television::getChannel() {
     cout << "Getting Channel..." << endl;
 }

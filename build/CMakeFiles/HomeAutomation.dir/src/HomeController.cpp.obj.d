@@ -95,20 +95,18 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\cerrno \
  c:\mingw64\include\c++\12.2.0\bits\charconv.h \
  c:\mingw64\include\c++\12.2.0\bits\basic_string.tcc \
- c:\mingw64\include\c++\12.2.0\memory \
- c:\mingw64\include\c++\12.2.0\bits\stl_uninitialized.h \
- c:\mingw64\include\c++\12.2.0\bits\stl_tempbuf.h \
- c:\mingw64\include\c++\12.2.0\bits\stl_raw_storage_iter.h \
- c:\mingw64\include\c++\12.2.0\bits\align.h \
- c:\mingw64\include\c++\12.2.0\bit \
- c:\mingw64\include\c++\12.2.0\bits\uses_allocator.h \
- c:\mingw64\include\c++\12.2.0\bits\unique_ptr.h \
- c:\mingw64\include\c++\12.2.0\tuple \
- c:\mingw64\include\c++\12.2.0\bits\shared_ptr.h \
- c:\mingw64\include\c++\12.2.0\bits\shared_ptr_base.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\Thermostat.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\Television.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\Lights.h \
+ c:\users\mille\onedrive\documents\school\classes\systemdev340\weeklycode\homeautomation\code\homeautomation\include\SecuritySystem.h \
+ c:\mingw64\include\c++\12.2.0\iostream \
+ c:\mingw64\include\c++\12.2.0\ostream c:\mingw64\include\c++\12.2.0\ios \
+ c:\mingw64\include\c++\12.2.0\exception \
+ c:\mingw64\include\c++\12.2.0\bits\exception_ptr.h \
+ c:\mingw64\include\c++\12.2.0\bits\cxxabi_init_exception.h \
  c:\mingw64\include\c++\12.2.0\typeinfo \
- c:\mingw64\include\c++\12.2.0\bits\allocated_ptr.h \
- c:\mingw64\include\c++\12.2.0\ext\aligned_buffer.h \
+ c:\mingw64\include\c++\12.2.0\bits\nested_exception.h \
+ c:\mingw64\include\c++\12.2.0\bits\ios_base.h \
  c:\mingw64\include\c++\12.2.0\ext\atomicity.h \
  c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\gthr.h \
  c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\gthr-default.h \
@@ -126,24 +124,6 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: \
  c:\mingw64\x86_64-w64-mingw32\include\pthread_compat.h \
  c:\mingw64\x86_64-w64-mingw32\include\pthread_unistd.h \
  c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\atomic_word.h \
- c:\mingw64\include\c++\12.2.0\ext\concurrence.h \
- c:\mingw64\include\c++\12.2.0\exception \
- c:\mingw64\include\c++\12.2.0\bits\exception_ptr.h \
- c:\mingw64\include\c++\12.2.0\bits\cxxabi_init_exception.h \
- c:\mingw64\include\c++\12.2.0\bits\nested_exception.h \
- c:\mingw64\include\c++\12.2.0\bits\shared_ptr_atomic.h \
- c:\mingw64\include\c++\12.2.0\bits\atomic_base.h \
- c:\mingw64\include\c++\12.2.0\bits\atomic_lockfree_defines.h \
- c:\mingw64\include\c++\12.2.0\backward\auto_ptr.h \
- c:\mingw64\include\c++\12.2.0\pstl\glue_memory_defs.h \
- c:\mingw64\include\c++\12.2.0\pstl\execution_defs.h \
- c:\mingw64\include\c++\12.2.0\vector \
- c:\mingw64\include\c++\12.2.0\bits\stl_vector.h \
- c:\mingw64\include\c++\12.2.0\bits\stl_bvector.h \
- c:\mingw64\include\c++\12.2.0\bits\vector.tcc \
- c:\mingw64\include\c++\12.2.0\iostream \
- c:\mingw64\include\c++\12.2.0\ostream c:\mingw64\include\c++\12.2.0\ios \
- c:\mingw64\include\c++\12.2.0\bits\ios_base.h \
  c:\mingw64\include\c++\12.2.0\bits\locale_classes.h \
  c:\mingw64\include\c++\12.2.0\bits\locale_classes.tcc \
  c:\mingw64\include\c++\12.2.0\system_error \
@@ -163,21 +143,84 @@ CMakeFiles/HomeAutomation.dir/src/HomeController.cpp.obj: \
  c:\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\mingw64\include\c++\12.2.0\istream \
  c:\mingw64\include\c++\12.2.0\bits\istream.tcc \
- c:\mingw64\include\c++\12.2.0\iomanip \
+ c:\mingw64\include\c++\12.2.0\memory \
+ c:\mingw64\include\c++\12.2.0\bits\stl_uninitialized.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_tempbuf.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_raw_storage_iter.h \
+ c:\mingw64\include\c++\12.2.0\bits\align.h \
+ c:\mingw64\include\c++\12.2.0\bit \
+ c:\mingw64\include\c++\12.2.0\bits\uses_allocator.h \
+ c:\mingw64\include\c++\12.2.0\bits\unique_ptr.h \
+ c:\mingw64\include\c++\12.2.0\tuple \
+ c:\mingw64\include\c++\12.2.0\bits\shared_ptr.h \
+ c:\mingw64\include\c++\12.2.0\bits\shared_ptr_base.h \
+ c:\mingw64\include\c++\12.2.0\bits\allocated_ptr.h \
+ c:\mingw64\include\c++\12.2.0\ext\aligned_buffer.h \
+ c:\mingw64\include\c++\12.2.0\ext\concurrence.h \
+ c:\mingw64\include\c++\12.2.0\bits\shared_ptr_atomic.h \
+ c:\mingw64\include\c++\12.2.0\bits\atomic_base.h \
+ c:\mingw64\include\c++\12.2.0\bits\atomic_lockfree_defines.h \
+ c:\mingw64\include\c++\12.2.0\backward\auto_ptr.h \
+ c:\mingw64\include\c++\12.2.0\pstl\glue_memory_defs.h \
+ c:\mingw64\include\c++\12.2.0\pstl\execution_defs.h \
+ c:\mingw64\include\c++\12.2.0\fstream \
+ c:\mingw64\include\c++\12.2.0\bits\codecvt.h \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\basic_file.h \
+ c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++io.h \
+ c:\mingw64\include\c++\12.2.0\bits\fstream.tcc \
+ c:\mingw64\include\c++\12.2.0\vector \
+ c:\mingw64\include\c++\12.2.0\bits\stl_vector.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_bvector.h \
+ c:\mingw64\include\c++\12.2.0\bits\vector.tcc \
+ c:\mingw64\include\c++\12.2.0\thread \
+ c:\mingw64\include\c++\12.2.0\bits\std_thread.h \
+ c:\mingw64\include\c++\12.2.0\bits\this_thread_sleep.h \
+ c:\mingw64\include\c++\12.2.0\bits\chrono.h \
+ c:\mingw64\include\c++\12.2.0\ratio c:\mingw64\include\c++\12.2.0\limits \
+ c:\mingw64\include\c++\12.2.0\ctime \
+ c:\mingw64\include\c++\12.2.0\bits\parse_numbers.h \
+ c:\mingw64\include\c++\12.2.0\chrono \
+ c:\mingw64\include\c++\12.2.0\filesystem \
+ c:\mingw64\include\c++\12.2.0\bits\fs_fwd.h \
+ c:\mingw64\include\c++\12.2.0\bits\fs_path.h \
  c:\mingw64\include\c++\12.2.0\locale \
  c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.h \
- c:\mingw64\include\c++\12.2.0\ctime \
  c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\time_members.h \
  c:\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\messages_members.h \
- c:\mingw64\include\c++\12.2.0\bits\codecvt.h \
  c:\mingw64\include\c++\12.2.0\bits\locale_facets_nonio.tcc \
  c:\mingw64\include\c++\12.2.0\bits\locale_conv.h \
+ c:\mingw64\include\c++\12.2.0\iomanip \
  c:\mingw64\include\c++\12.2.0\bits\quoted_string.h \
  c:\mingw64\include\c++\12.2.0\sstream \
  c:\mingw64\include\c++\12.2.0\bits\sstream.tcc \
+ c:\mingw64\include\c++\12.2.0\codecvt \
+ c:\mingw64\include\c++\12.2.0\bits\fs_dir.h \
+ c:\mingw64\include\c++\12.2.0\bits\fs_ops.h \
+ c:\mingw64\include\c++\12.2.0\iostream \
  c:\mingw64\include\c++\12.2.0\algorithm \
  c:\mingw64\include\c++\12.2.0\bits\stl_algo.h \
  c:\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
  c:\mingw64\include\c++\12.2.0\bits\stl_heap.h \
  c:\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
- c:\mingw64\include\c++\12.2.0\pstl\glue_algorithm_defs.h
+ c:\mingw64\include\c++\12.2.0\pstl\glue_algorithm_defs.h \
+ c:\mingw64\include\c++\12.2.0\regex c:\mingw64\include\c++\12.2.0\bitset \
+ c:\mingw64\include\c++\12.2.0\stack c:\mingw64\include\c++\12.2.0\deque \
+ c:\mingw64\include\c++\12.2.0\bits\stl_deque.h \
+ c:\mingw64\include\c++\12.2.0\bits\deque.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\stl_stack.h \
+ c:\mingw64\include\c++\12.2.0\bits\std_function.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_tree.h \
+ c:\mingw64\include\c++\12.2.0\bits\node_handle.h \
+ c:\mingw64\include\c++\12.2.0\bits\stl_map.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_constants.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_error.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_automaton.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_automaton.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\regex_scanner.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_scanner.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\regex_compiler.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_compiler.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\regex.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex.tcc \
+ c:\mingw64\include\c++\12.2.0\bits\regex_executor.h \
+ c:\mingw64\include\c++\12.2.0\bits\regex_executor.tcc
