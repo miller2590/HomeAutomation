@@ -180,24 +180,10 @@ CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Thermostat.cpp -o CMakeFiles\HomeAutomation.dir\src\Thermostat.cpp.s
 
-CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
-CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/Vacuum.cpp
-CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp
-
-CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp > CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.i
-
-CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\Vacuum.cpp -o CMakeFiles\HomeAutomation.dir\src\Vacuum.cpp.s
-
 CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj: CMakeFiles/HomeAutomation.dir/flags.make
 CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj: C:/Users/mille/OneDrive/Documents/School/Classes/SystemDev340/WeeklyCode/HomeAutomation/Code/HomeAutomation/src/GenerateUUID.cpp
 CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj: CMakeFiles/HomeAutomation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj -MF CMakeFiles\HomeAutomation.dir\src\GenerateUUID.cpp.obj.d -o CMakeFiles\HomeAutomation.dir\src\GenerateUUID.cpp.obj -c C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\src\GenerateUUID.cpp
 
 CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.i: cmake_force
@@ -218,7 +204,6 @@ HomeAutomation_OBJECTS = \
 "CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj" \
 "CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj" \
 "CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj" \
-"CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj" \
 "CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj"
 
 # External object files for target HomeAutomation
@@ -232,13 +217,12 @@ HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/SecuritySystem.cpp.obj
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/SmartDevice.cpp.obj
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj
-HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/src/GenerateUUID.cpp.obj
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/build.make
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/linkLibs.rsp
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/objects1.rsp
 HomeAutomation.exe: CMakeFiles/HomeAutomation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable HomeAutomation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mille\OneDrive\Documents\School\Classes\SystemDev340\WeeklyCode\HomeAutomation\Code\HomeAutomation\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable HomeAutomation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HomeAutomation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -15,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/HomeAutomation.dir/src/Television.cpp.obj.d"
   "CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj"
   "CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.obj.d"
-  "CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj"
-  "CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj.d"
   "CMakeFiles/HomeAutomation.dir/src/main.cpp.obj"
   "CMakeFiles/HomeAutomation.dir/src/main.cpp.obj.d"
   "HomeAutomation.exe"

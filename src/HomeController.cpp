@@ -1,3 +1,13 @@
+/*
+ * HomeController.h
+ * 
+ * This file declares the HomeController class, which is responsible for managing
+ * a collection of smart devices. The HomeController can run different modes 
+ * (AM and PM), get the current date and time, and write the device settings to a file.
+ * 
+ * @author: Gage Miller
+ */
+
 #include "../include/HomeController.h"
 #include <iostream>
 #include <iomanip>
@@ -83,9 +93,11 @@ void HomeController::deleteDevice() {
         int deleteConfirm;
         cin >> deleteConfirm;
 
-        //Uses lambda function to iterate through the vector
-        //and check if userChoice is == device ID.
-        //Has basic error handling implimentations.
+        /*
+        *Uses lambda function to iterate through the vector
+        *and check if userChoice is == device ID.
+        *Has basic error handling implimentations.
+        */
         if (deleteConfirm == 1) {
             devices.erase(
                 std::remove_if(devices.begin(), devices.end(),
@@ -102,6 +114,7 @@ void HomeController::deleteDevice() {
 
         }
     } else {
+        //Error handling for device not found
         cout << "************************************************" << endl;
         cout << "Device with ID: " << userChoice << ", not found." << endl;
         cout << "************************************************" << endl;
@@ -117,6 +130,7 @@ void HomeController::showDevices() {
         noDevicesAvailable();
 
     } else {
+        //Formated output
         cout << endl;
         cout << left 
             << setw(40) << "Device ID" 
@@ -129,7 +143,7 @@ void HomeController::showDevices() {
             << setw(20) << "-----------" 
             << setw(15) << "-----------" 
             << endl;
-
+        //Iterates through devices vector and outputs device info
         for (const auto& device : devices) {
             cout << left
                 << setw(40) << device->getId() 
@@ -157,10 +171,11 @@ SmartDevice* HomeController::getDeviceById(string Id) const {
         cerr << "Error: " << e.what() << endl;
     }
     
-    //Will likely return something more suitable than nullptr
+    //Error handling for device not found
     return nullptr;
 }
 
+//Runs the AM mode
 void HomeController::getDateTime(string& date, string& time) const {
     time_t currentTime = std::time(0);
     struct tm* timeInfo = std::localtime(&currentTime);
@@ -176,13 +191,17 @@ void HomeController::getDateTime(string& date, string& time) const {
     time = std::string(timeBuffer);
 }
 
+//Runs the AM mode and sets the device status to on or off 
 void HomeController::runAutomation() {
     if (devices.empty()) {
+        //Error handling for no devices
         noDevicesAvailable();
         return;
     } 
 
     string userChoice;
+
+    //Formated output for user to choose device to automate
     cout << "**********************************************" << endl;
     cout << "Copy and paste the ID of the Device to Automate." << endl;
     cout << "**********************************************" << endl;
@@ -190,6 +209,7 @@ void HomeController::runAutomation() {
     cout << "> ";
     cin >> userChoice;
     
+    //Gets device by ID 
     SmartDevice* deviceToAutomate = getDeviceById(userChoice);
 
     if (deviceToAutomate) {
@@ -207,42 +227,53 @@ void HomeController::runAutomation() {
         cout << "> ";
         cin >> userPmChoice;
 
+        //Checks if user input is valid and sets device start and stop times
         if (isValidAmFormat(userAmChoice) && isValidPmFormat(userPmChoice)) {
             deviceToAutomate->setAmSetPoint(userAmChoice);
             deviceToAutomate->setPmSetPoint(userPmChoice);
             cout << "Start and Stop times set." << endl;
         } 
         else {
+
+            //Error handling for invalid time format
             cout << "**************" << endl;
             cout << "Invalid Entry." << endl;
             cout << "**************" << endl;
             return;
         }
 
+        //Checks device type and sets device settings
         if (Thermostat* thermostat = dynamic_cast<Thermostat*>(deviceToAutomate)) {
             
+            //Error handling for invalid temp range
             int userAmTemp, userPmTemp;
             cout << "Please enter AM temperature (60 - 80): ";
             cin >> userAmTemp;
 
+            //Checks for valid temp range and sets temp
             if (userAmTemp >= 60 && userAmTemp <= 80) {
                 thermostat->setAmTemp(userAmTemp);
 
                 cout << "Please enter PM temperature (60 - 80): ";
                 cin >> userPmTemp;
+
+                //Checks for valid temp range and sets temp 
                 if (userPmTemp >= 60 && userPmTemp <= 80) {
                     thermostat->setPmTemp(userPmTemp);
                     cout << "Temperatures Set." << endl;
                 } else {
+                    //Error handling for invalid temp range
                     cout << "Please enter a temp between 60 & 80." << endl;
                     return;
                 }
  
             } else {
+                //Error handling for invalid temp range
                 cout << "Please enter a temp between 60 & 80." << endl;
                 return;
             }
-            
+
+        // Checks device type and sets device settings  
         } else if (Television* television = dynamic_cast<Television*>(deviceToAutomate)) {
             confirmAndRunAutomation();
             cout << "Television Times Set." << endl;
@@ -257,10 +288,12 @@ void HomeController::runAutomation() {
             int userSensitivity;
             cout << "Please enter security light sensitivity (1 - 5)";
             cout << "> ";
+            //Checks for valid sensitivity range and sets sensitivity
             if (cin >> userSensitivity) {
-                //Check for whole number
+                //Error handling for invalid sensitivity range
                 if (userSensitivity >=1 && userSensitivity <= 5) {
                     securitySystem->setSensitivity(userSensitivity);
+                
                     confirmAndRunAutomation();
                     cout << "Sensitivity Set." << endl;
                 } else {
@@ -268,53 +301,65 @@ void HomeController::runAutomation() {
                     return;
                 }
             } else {
+                //Error handling for whole number
                 cout << "Please Enter a Whole Number." << endl;
                 return;
             }
         } else {
+            //Error handling for device type not found
             cout << "This device type is not supported for automation." << endl;
             return;
         }
+        //Runs automation loop
         confirmAndRunAutomation();
     }
 }
 
+//Runs manual override and sets the device status to on or off
 void HomeController::manualOverride() {
     stopAutomationLoop();
     cout << "Manual Override..." << endl;
 }
 
+// Automation loop runs every 30 seconds and checks if the current time matches the device start time 
+// and sets the device status to on or off, and writes the device settings to a file in seperate thread
 void HomeController::startAutomationLoop() {
     automationRunning = true;
     automationThread = thread([this]() {
         // Write the initial device settings to the file
         writeDeviceSettingsToFile();
-
+        // Run the automation loop
         while (automationRunning) {
             string currentDate, currentTime;
             getDateTime(currentDate, currentTime);
+            // Check if the current time matches the device start time
             for (auto& device : devices) {
                 if (device->getAmSetPoint() == currentTime) {
                     device->setStatus();
                     writeDeviceSettingsToFile();
                 }
+                // Check if the current time matches the device stop time
                 if (device->getPmSetPoint() == currentTime) {
                     device->setStatus();
                     writeDeviceSettingsToFile();
                 }
             }
+            // Sleep for 30 seconds before checking the time again
             this_thread::sleep_for(chrono::seconds(30));
         }
     });
 }
 
+// Stops the automation loop
 void HomeController::stopAutomationLoop() {
     automationRunning = false;
+    // Wait for the thread to finish before returning
     if (automationThread.joinable()) {
         automationThread.join();
     }
 }
 
+// Confirms that the user has finished setting up their devices and runs the automation loop
 void HomeController::confirmAndRunAutomation() {
     string userConfirmation;
     cout << "Have you finished setting up your devices? 1: Yes, 2: No" << endl;
@@ -328,6 +373,7 @@ void HomeController::confirmAndRunAutomation() {
 
 }
 
+// Writes the device settings to a file in the current directory
 void HomeController::writeDeviceSettingsToFile() {
     // Get the absolute path of the file
     filesystem::path filePath = filesystem::absolute("device_status.txt");
@@ -361,6 +407,7 @@ void HomeController::writeDeviceSettingsToFile() {
     outfile.close();
 }
 
+// Error handling for no devices
 void HomeController::noDevicesAvailable() {
     cout << "#########################" << endl;
     cout << "There are no Devices yet!" << endl;

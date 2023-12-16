@@ -714,30 +714,6 @@ src/Thermostat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/Thermostat.cpp.s
 .PHONY : src/Thermostat.cpp.s
 
-src/Vacuum.obj: src/Vacuum.cpp.obj
-.PHONY : src/Vacuum.obj
-
-# target to build an object file
-src/Vacuum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.obj
-.PHONY : src/Vacuum.cpp.obj
-
-src/Vacuum.i: src/Vacuum.cpp.i
-.PHONY : src/Vacuum.i
-
-# target to preprocess a source file
-src/Vacuum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.i
-.PHONY : src/Vacuum.cpp.i
-
-src/Vacuum.s: src/Vacuum.cpp.s
-.PHONY : src/Vacuum.s
-
-# target to generate assembly for a file
-src/Vacuum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HomeAutomation.dir\build.make CMakeFiles/HomeAutomation.dir/src/Vacuum.cpp.s
-.PHONY : src/Vacuum.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -826,9 +802,6 @@ help:
 	@echo ... src/Thermostat.obj
 	@echo ... src/Thermostat.i
 	@echo ... src/Thermostat.s
-	@echo ... src/Vacuum.obj
-	@echo ... src/Vacuum.i
-	@echo ... src/Vacuum.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
