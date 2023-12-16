@@ -16,7 +16,6 @@
 #include "../include/SmartDevice.h"
 #include "../include/Television.h"
 #include "../include/Thermostat.h"
-#include "../include/Vacuum.h"
 #include <iostream>
 
 using namespace std;
